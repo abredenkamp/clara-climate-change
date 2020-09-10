@@ -1,0 +1,1842 @@
+intents:
+
+- tell_me_more_eng
+- inform_eng
+- affirm_eng
+- answer_is_wrong_eng
+- ask_for_stats_eng
+- deny_eng
+- goodbye_eng
+- greet_eng
+- out_of_scope_eng
+- request_for_french_eng
+- user_says_thanks_eng
+- want_to_give_feedback_eng
+- whats_your_name_eng
+- what_do_you_do_eng
+- what_do_you_do_fra
+- what_do_you_do_spa
+- what_do_you_do_ara
+- where_do_you_live_eng
+- unknown_myths_eng
+- ask_about_privacy_eng
+- who_is_twb_eng
+- ccc_too_late_eng
+- ccc_what_is_greenhouse_effect_eng
+- ccc_weather_vs_climate_eng
+- ccc_what_can_ifrc_do_eng
+- ccc_is_tree_planting_good_eng
+- ccc_explain_ccc_negotiations_eng
+- ccc_tracking_and_measurement_eng
+- ccc_do_scientists_agree_eng
+- ccc_what_is_carbon_footprint_eng
+- ccc_greenest_countries_eng
+- ccc_costs_of_doing_nothing_eng
+- ccc_how_stop_cc_eng
+- ccc_how_fast_heating_eng
+- ccc_what_are_global_commitments_eng
+- ccc_my_countries_co2_eng
+- ccc_how_much_my_co2_eng
+- ccc_how_has_c02 changed_over_time_eng
+- ccc_affect_of_covid_eng
+- ccc_how_can_we_promote_eng
+- ask_about_actions_eng
+- ccc_climate_crisis_impact_health_eng
+- ccc_climate_crisis_impact_migration_eng
+- ccc_what_is_forecast_based_financing_eng
+- ccc_climate_crisis_vs_pandemic_eng
+- ccc_effect_of_climate_crisis_on_food_water_security_eng
+- ccc_effect_of_climate_crisis_on_livelihoods_eng
+- ccc_does_climate_crisis_cost_lives_eng
+- ccc_evidence_of_climate_crisis_eng
+- ccc_does_weather_reflect_climate_crisis_eng
+- ccc_does_climate_change_exist_alongside_coldwaves_eng
+- ccc_is_climate_change_natural_eng
+- ccc_problem_with_warm_weather_eng
+- ccc_impact_of_Earth_warming_eng
+- ccc_individual_choices_matter_eng
+- ccc_lifestyle_changes_eng
+- ccc_community_initiatives_eng
+- ccc_climate_education_eng
+- ccc_co2_calculator_eng
+- ccc_group_activities_eng
+- ccc_advocacy_intro_eng
+- ccc_advocacy_toolkit_eng
+- ccc_prevention_plans_eng
+- ccc_lifestyle_diet_eng
+- ccc_lifestyle_transportation_eng
+- ccc_lifestyle_shopping_eng
+- ccc_plastic_bags_eng
+- ccc_recycling_eng
+- ccc_lifestyle_local_diet_eng
+- ccc_group_planting_trees_eng
+- ccc_games_eng
+- ccc_shared_gardens_eng
+- ccc_who_is_this_eng
+- ccc_start_cc_education_eng
+- ccc_what_is_cc_eng
+- tell_me_more_fra
+- inform_fra
+- affirm_fra
+- answer_is_wrong_fra
+- ask_for_stats_fra
+- deny_fra
+- goodbye_fra
+- greet_fra
+- out_of_scope_fra
+- request_for_french_fra
+- user_says_thanks_fra
+- want_to_give_feedback_fra
+- whats_your_name_fra
+- where_do_you_live_fra
+- unknown_myths_fra
+- ask_about_privacy_fra
+- who_is_twb_fra
+- ccc_too_late_fra
+- ccc_what_is_greenhouse_effect_fra
+- ccc_weather_vs_climate_fra
+- ccc_what_can_ifrc_do_fra
+- ccc_is_tree_planting_good_fra
+- ccc_explain_ccc_negotiations_fra
+- ccc_tracking_and_measurement_fra
+- ccc_do_scientists_agree_fra
+- ccc_what_is_carbon_footprint_fra
+- ccc_greenest_countries_fra
+- ccc_costs_of_doing_nothing_fra
+- ccc_how_stop_cc_fra
+- ccc_how_fast_heating_fra
+- ccc_what_are_global_commitments_fra
+- ccc_my_countries_co2_fra
+- ccc_how_much_my_co2_fra
+- ccc_how_has_c02 changed_over_time_fra
+- ccc_affect_of_covid_fra
+- ccc_how_can_we_promote_fra
+- ask_about_actions_fra
+- ccc_climate_crisis_impact_health_fra
+- ccc_climate_crisis_impact_migration_fra
+- ccc_what_is_forecast_based_financing_fra
+- ccc_climate_crisis_vs_pandemic_fra
+- ccc_effect_of_climate_crisis_on_food_water_security_fra
+- ccc_effect_of_climate_crisis_on_livelihoods_fra
+- ccc_does_climate_crisis_cost_lives_fra
+- ccc_evidence_of_climate_crisis_fra
+- ccc_does_weather_reflect_climate_crisis_fra
+- ccc_does_climate_change_exist_alongside_coldwaves_fra
+- ccc_is_climate_change_natural_fra
+- ccc_problem_with_warm_weather_fra
+- ccc_impact_of_Earth_warming_fra
+- ccc_individual_choices_matter_fra
+- ccc_lifestyle_changes_fra
+- ccc_community_initiatives_fra
+- ccc_climate_education_fra
+- ccc_co2_calculator_fra
+- ccc_group_activities_fra
+- ccc_advocacy_intro_fra
+- ccc_advocacy_toolkit_fra
+- ccc_prevention_plans_fra
+- ccc_lifestyle_diet_fra
+- ccc_lifestyle_transportation_fra
+- ccc_lifestyle_shopping_fra
+- ccc_plastic_bags_fra
+- ccc_recycling_fra
+- ccc_lifestyle_local_diet_fra
+- ccc_group_planting_trees_fra
+- ccc_games_fra
+- ccc_shared_gardens_fra
+- ccc_who_is_this_fra
+- ccc_start_cc_education_fra
+- ccc_what_is_cc_fra
+- tell_me_more_spa
+- inform_spa
+- affirm_spa
+- answer_is_wrong_spa
+- ask_for_stats_spa
+- deny_spa
+- goodbye_spa
+- greet_spa
+- out_of_scope_spa
+- request_for_french_spa
+- user_says_thanks_spa
+- want_to_give_feedback_spa
+- whats_your_name_spa
+- where_do_you_live_spa
+- unknown_myths_spa
+- ask_about_privacy_spa
+- who_is_twb_spa
+- ccc_too_late_spa
+- ccc_what_is_greenhouse_effect_spa
+- ccc_weather_vs_climate_spa
+- ccc_what_can_ifrc_do_spa
+- ccc_is_tree_planting_good_spa
+- ccc_explain_ccc_negotiations_spa
+- ccc_tracking_and_measurement_spa
+- ccc_do_scientists_agree_spa
+- ccc_what_is_carbon_footprint_spa
+- ccc_greenest_countries_spa
+- ccc_costs_of_doing_nothing_spa
+- ccc_how_stop_cc_spa
+- ccc_how_fast_heating_spa
+- ccc_what_are_global_commitments_spa
+- ccc_my_countries_co2_spa
+- ccc_how_much_my_co2_spa
+- ccc_how_has_c02 changed_over_time_spa
+- ccc_affect_of_covid_spa
+- ccc_how_can_we_promote_spa
+- ask_about_actions_spa
+- ccc_climate_crisis_impact_health_spa
+- ccc_climate_crisis_impact_migration_spa
+- ccc_what_is_forecast_based_financing_spa
+- ccc_climate_crisis_vs_pandemic_spa
+- ccc_effect_of_climate_crisis_on_food_water_security_spa
+- ccc_effect_of_climate_crisis_on_livelihoods_spa
+- ccc_does_climate_crisis_cost_lives_spa
+- ccc_evidence_of_climate_crisis_spa
+- ccc_does_weather_reflect_climate_crisis_spa
+- ccc_does_climate_change_exist_alongside_coldwaves_spa
+- ccc_is_climate_change_natural_spa
+- ccc_problem_with_warm_weather_spa
+- ccc_impact_of_Earth_warming_spa
+- ccc_individual_choices_matter_spa
+- ccc_lifestyle_changes_spa
+- ccc_community_initiatives_spa
+- ccc_climate_education_spa
+- ccc_co2_calculator_spa
+- ccc_group_activities_spa
+- ccc_advocacy_intro_spa
+- ccc_advocacy_toolkit_spa
+- ccc_prevention_plans_spa
+- ccc_lifestyle_diet_spa
+- ccc_lifestyle_transportation_spa
+- ccc_lifestyle_shopping_spa
+- ccc_plastic_bags_spa
+- ccc_recycling_spa
+- ccc_lifestyle_local_diet_spa
+- ccc_group_planting_trees_spa
+- ccc_games_spa
+- ccc_shared_gardens_spa
+- ccc_who_is_this_spa
+- ccc_start_cc_education_spa
+- ccc_what_is_cc_spa
+- tell_me_more_ara
+- inform_ara
+- affirm_ara
+- answer_is_wrong_ara
+- ask_for_stats_ara
+- deny_ara
+- goodbye_ara
+- greet_ara
+- out_of_scope_ara
+- request_for_french_ara
+- user_says_thanks_ara
+- want_to_give_feedback_ara
+- whats_your_name_ara
+- where_do_you_live_ara
+- unknown_myths_ara
+- ask_about_privacy_ara
+- who_is_twb_ara
+- ccc_too_late_ara
+- ccc_what_is_greenhouse_effect_ara
+- ccc_weather_vs_climate_ara
+- ccc_what_can_ifrc_do_ara
+- ccc_is_tree_planting_good_ara
+- ccc_explain_ccc_negotiations_ara
+- ccc_tracking_and_measurement_ara
+- ccc_do_scientists_agree_ara
+- ccc_what_is_carbon_footprint_ara
+- ccc_greenest_countries_ara
+- ccc_costs_of_doing_nothing_ara
+- ccc_how_stop_cc_ara
+- ccc_how_fast_heating_ara
+- ccc_what_are_global_commitments_ara
+- ccc_my_countries_co2_ara
+- ccc_how_much_my_co2_ara
+- ccc_how_has_c02 changed_over_time_ara
+- ccc_affect_of_covid_ara
+- ccc_how_can_we_promote_ara
+- ask_about_actions_ara
+- ccc_climate_crisis_impact_health_ara
+- ccc_climate_crisis_impact_migration_ara
+- ccc_what_is_forecast_based_financing_ara
+- ccc_climate_crisis_vs_pandemic_ara
+- ccc_effect_of_climate_crisis_on_food_water_security_ara
+- ccc_effect_of_climate_crisis_on_livelihoods_ara
+- ccc_does_climate_crisis_cost_lives_ara
+- ccc_evidence_of_climate_crisis_ara
+- ccc_does_weather_reflect_climate_crisis_ara
+- ccc_does_climate_change_exist_alongside_coldwaves_ara
+- ccc_is_climate_change_natural_ara
+- ccc_problem_with_warm_weather_ara
+- ccc_impact_of_Earth_warming_ara
+- ccc_individual_choices_matter_ara
+- ccc_lifestyle_changes_ara
+- ccc_community_initiatives_ara
+- ccc_climate_education_ara
+- ccc_co2_calculator_ara
+- ccc_group_activities_ara
+- ccc_advocacy_intro_ara
+- ccc_advocacy_toolkit_ara
+- ccc_prevention_plans_ara
+- ccc_lifestyle_diet_ara
+- ccc_lifestyle_transportation_ara
+- ccc_lifestyle_shopping_ara
+- ccc_plastic_bags_ara
+- ccc_recycling_ara
+- ccc_lifestyle_local_diet_ara
+- ccc_group_planting_trees_ara
+- ccc_games_ara
+- ccc_shared_gardens_ara
+- ccc_who_is_this_ara
+- ccc_start_cc_education_ara
+- ccc_what_is_cc_ara
+
+entities:
+  - cc_action_topics_eng
+  - cc_action_topics_fra
+  - cc_action_topics_spa
+  - cc_action_topics_ara
+
+forms:
+  - form_available_topics_eng
+  - form_contact_details_eng
+  - form_language_questions_eng
+  - form_myth_source_eng
+  - form_recommend_cc_action_eng
+  - form_available_topics_fra
+  - form_contact_details_fra
+  - form_language_questions_fra
+  - form_myth_source_fra
+  - form_recommend_cc_action_fra
+  - form_available_topics_spa
+  - form_contact_details_spa
+  - form_language_questions_spa
+  - form_myth_source_spa
+  - form_recommend_cc_action_spa
+  - form_available_topics_ara
+  - form_contact_details_ara
+  - form_language_questions_ara
+  - form_myth_source_ara
+  - form_recommend_cc_action_ara
+
+actions:
+  - action_reset_full
+  - action_offer_follow_ups_eng
+  - action_deal_with_follow_ups_eng
+  - action_get_infection_stats_eng
+  - action_get_contact_details_eng
+  - action_get_feedback_eng
+  - action_get_language_questions_eng
+  - action_link_to_pandemic_video_eng
+  - action_ask_anything_else_eng
+  - action_my_fallback_eng
+  - action_handle_no
+  - action_offer_follow_ups_fra
+  - action_deal_with_follow_ups_fra
+  - action_get_infection_stats_fra
+  - action_get_contact_details_fra
+  - action_get_feedback_fra
+  - action_get_language_questions_fra
+  - action_link_to_pandemic_video_fra
+  - action_ask_anything_else_fra
+  - action_my_fallback_fra
+  - action_offer_follow_ups_spa
+  - action_deal_with_follow_ups_spa
+  - action_get_infection_stats_spa
+  - action_get_contact_details_spa
+  - action_get_feedback_spa
+  - action_get_language_questions_spa
+  - action_link_to_pandemic_video_spa
+  - action_ask_anything_else_spa
+  - action_my_fallback_spa
+  - action_offer_follow_ups_ara
+  - action_deal_with_follow_ups_ara
+  - action_get_infection_stats_ara
+  - action_get_contact_details_ara
+  - action_get_feedback_ara
+  - action_get_language_questions_ara
+  - action_link_to_pandemic_video_ara
+  - action_ask_anything_else_ara
+  - action_my_fallback_ara
+
+slots:
+  first_time_eng:
+    type: unfeaturized
+  given_name_eng:
+    type: unfeaturized
+  location_eng:
+    type: unfeaturized
+  myth_source_eng:
+    type: unfeaturized
+  willing_to_do_language_survey_eng:
+    type: unfeaturized
+  language_at_home_eng:
+    type: unfeaturized
+  language_for_written_comms_eng:
+    type: unfeaturized
+  language_for_verbal_comms_eng:
+    type: unfeaturized
+  preferred_channel_eng:
+    type: unfeaturized
+  feedback_eng:
+    type: unfeaturized
+  feedback_reason_eng:
+    type: unfeaturized
+  country_eng:
+    type: text
+  container_eng:
+    type: text
+  issue_type_eng:
+    type: unfeaturized
+  issue_detail_eng:
+    type: unfeaturized
+  name_eng:
+    type: unfeaturized
+  cc_action_topics_eng:
+    type: unfeaturized
+  cc_comm_subtopics_eng:
+    type: unfeaturized
+  cc_group_action_eng:
+    type: unfeaturized
+  cc_life_subtopics_eng:
+    type: unfeaturized
+  first_time_fra:
+    type: unfeaturized
+  given_name_fra:
+    type: unfeaturized
+  location_fra:
+    type: unfeaturized
+  myth_source_fra:
+    type: unfeaturized
+  willing_to_do_language_survey_fra:
+    type: unfeaturized
+  language_at_home_fra:
+    type: unfeaturized
+  language_for_written_comms_fra:
+    type: unfeaturized
+  language_for_verbal_comms_fra:
+    type: unfeaturized
+  preferred_channel_fra:
+    type: unfeaturized
+  feedback_fra:
+    type: unfeaturized
+  feedback_reason_fra:
+    type: unfeaturized
+  country_fra:
+    type: text
+  container_fra:
+    type: text
+  issue_type_fra:
+    type: unfeaturized
+  issue_detail_fra:
+    type: unfeaturized
+  name_fra:
+    type: unfeaturized
+  cc_action_topics_fra:
+    type: unfeaturized
+  cc_comm_subtopics_fra:
+    type: unfeaturized
+  cc_group_action_fra:
+    type: unfeaturized
+  cc_life_subtopics_fra:
+    type: unfeaturized
+  first_time_spa:
+    type: unfeaturized
+  given_name_spa:
+    type: unfeaturized
+  location_spa:
+    type: unfeaturized
+  myth_source_spa:
+    type: unfeaturized
+  willing_to_do_language_survey_spa:
+    type: unfeaturized
+  language_at_home_spa:
+    type: unfeaturized
+  language_for_written_comms_spa:
+    type: unfeaturized
+  language_for_verbal_comms_spa:
+    type: unfeaturized
+  preferred_channel_spa:
+    type: unfeaturized
+  feedback_spa:
+    type: unfeaturized
+  feedback_reason_spa:
+    type: unfeaturized
+  country_spa:
+    type: text
+  container_spa:
+    type: text
+  issue_type_spa:
+    type: unfeaturized
+  issue_detail_spa:
+    type: unfeaturized
+  name_spa:
+    type: unfeaturized
+  cc_action_topics_spa:
+    type: unfeaturized
+  cc_comm_subtopics_spa:
+    type: unfeaturized
+  cc_group_action_spa:
+    type: unfeaturized
+  cc_life_subtopics_spa:
+    type: unfeaturized
+  first_time_ara:
+    type: unfeaturized
+  given_name_ara:
+    type: unfeaturized
+  location_ara:
+    type: unfeaturized
+  myth_source_ara:
+    type: unfeaturized
+  willing_to_do_language_survey_ara:
+    type: unfeaturized
+  language_at_home_ara:
+    type: unfeaturized
+  language_for_written_comms_ara:
+    type: unfeaturized
+  language_for_verbal_comms_ara:
+    type: unfeaturized
+  preferred_channel_ara:
+    type: unfeaturized
+  feedback_ara:
+    type: unfeaturized
+  feedback_reason_ara:
+    type: unfeaturized
+  country_ara:
+    type: text
+  container_ara:
+    type: text
+  issue_type_ara:
+    type: unfeaturized
+  issue_detail_ara:
+    type: unfeaturized
+  name_ara:
+    type: unfeaturized
+  cc_action_topics_ara:
+    type: unfeaturized
+  cc_comm_subtopics_ara:
+    type: unfeaturized
+  cc_group_action_ara:
+    type: unfeaturized
+  cc_life_subtopics_ara:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+
+responses:
+
+    utter_anything_else_eng:
+      - text: "Anything else I can try to answer for you?"
+      - text: "Do you have any other questions?"
+      - text: "Can I try to answer anything else?"
+
+    utter_ask_anything_else_eng:
+      - text: "Anything else I can try to answer for you?"
+      - text: "What else would you like to ask?"
+
+    utter_ask_feedback_reason_eng:
+      - text: "Could you tell us what you think we could better?"
+
+    utter_ask_first_time_eng:
+      - text: "Is this the first time we have chatted?"
+
+    utter_ask_given_name_eng:
+      - text: "What would you like me to call you?"
+      - text: "What do your friends call you?"
+
+    utter_collect_fallback_eng:
+      - text: "It seems that I am having some difficulties. Sorry. Let's start again. What can I help you with today?"
+      - text: "I'm sorry. I didn't quite get that. Please say that again."
+
+    utter_get_back_on_topic_eng:
+      - text: "Any questions about climate change that I can help you with?"
+
+    utter_get_informed_consent_eng:
+      - text: "Please note that we commit to never use your personal data, including your phone number. We will analyze our conversations to improve the service but this service is completely anonymous. By continuing this conversation we assume you agree."
+
+    utter_goodbye_eng:
+      - text: "Thanks for stopping by. Please come back anytime and feel free to spread the news about this service with your family and friends! "
+
+    utter_greet_with_name_eng:
+      - text: "Hello {given_name}!"
+
+    utter_introduce_survey_eng:
+      - text: "I speak French, Spanish and Arabic, but I'm learning to speak more. I'd like to ask you a few questions about the languages you know..."
+
+    utter_out_of_scope_eng:
+      - text: "Sorry, I don't know how to respond to that yet."
+
+    utter_reply_goodbye_eng:
+      - text: "Goodbye. Please reach out again if you have any questions."
+
+    utter_reply_greeting_eng:
+      - text: "Hi! Thanks for stopping by! Hope you are enjoying our summit :-) I haven't done this for too long, so please be patient with me!  "
+
+    utter_reply_thanks_eng:
+      - text: "Thank you too!"
+
+    utter_reply_where_do_you_live_eng:
+      - text: "I am a computer, I live among telephones."
+      - text: "I am a computer, I live among clouds."
+
+    utter_set_expectations_eng:
+      - text: "I'm here to help with questions about climate change. I'm also happy to make some suggestions for simple initiatives that we can take individually and within our communities to increase awareness and start making a positive impact. "
+
+    utter_thanks_for_your_feedback_eng:
+      - text: "Thanks, that's interesting!"
+      - text: "I appreciate your feedback"
+
+    utter_welcome_back_eng:
+      - text: "Welcome back!"
+      - text: "Glad to have you back!"
+
+    utter_reply_whats_your_name_eng:
+      - text: "I don't have a name yet, I'm just a bot. "
+
+    utter_reply_to_request_for_french_eng:
+      - text: "I'm sorry, I seem to have misunderstood the question completely. Could you try again?"
+
+    utter_reply_to_wrong_answer_eng:
+      - text: "I'm sorry, we'll make a note of it and change it as soon as we can."
+
+    utter_unknown_myths_eng:
+      - text: "I'll try to find out about that"
+
+    utter_reply_about_privacy_eng:
+      - text: "We don't collect any personal information"
+
+    utter_games_transition_eng:
+      - text: "I'm glad you asked! Not everybodys knows that …"
+
+    utter_shopping_intro_eng:
+      - text: "I like to think that shopping habits should go hand in hand with recycling habits!"
+
+    utter_transition_question_eng:
+      - text: "Would you like to learn more about this?"
+      - text: "Ready for more?"
+
+    utter_start_cc_education_eng:
+      - text: "Great! There is a lot of confusion and misinformation out there, so I am happy to help with this…For instance, I can answer questions regarding the greenhouse effect, how gas emissions have changed over time, or how climate change is tracked over time. So how can I help?"
+
+    utter_how_can_help_eng:
+      - text: "Ask me anything!"
+
+    utter_my_fallback_eng:
+      - text: "I’m having trouble understanding your question …"
+
+    utter_shopping_plastic_bags_eng:
+      - text: "Worldwide, around 500 billion plastic bags are consumed annually. Their production requires 60 million barrels of oil; they take up to 1000 years to decompose. Bring your own bag when you shop and you can help eliminate plastics from our environment."
+
+    utter_who_is_twb_eng:
+      - text: "We are Translators without Borders (TWB), a non-profit working towards a world where knowledge knows no language barriers. "
+
+    utter_ccc_what_is_cc_eng:
+      - text: "Climate change is the ongoing rise in average temperature of Earth's climate system, and the consequences of that rise. The consequences include changes in rainfall patterns, more extreme storms, heat-wave intensification, and rising sea levels. While there have been previous periods of climatic change, since the mid-20th century their rate and scale have been unprecedented."
+
+    utter_ask_location_eng:
+      - text: "Where are you?"
+        buttons:
+        - title: "Europe"
+          payload: "europe"
+        - title: "Oceania"
+          payload: "oceania"
+        - title: "Africa"
+          payload: "africa"
+        - title: "North America"
+          payload: "nth_america"
+        - title: "South America"
+          payload: "sth_america"
+
+    utter_ask_myth_source_eng:
+      - text: "If you don't mind me asking - where did you hear that?"
+        buttons:
+        - title: "Friends & Family"
+          payload: "f_and_f"
+        - title: "Radio"
+          payload: "radio"
+        - title: "WhatsApp"
+          payload: "whatsapp"
+        - title: "Twitter"
+          payload: "twitter"
+
+    utter_ask_preferred_channel_eng:
+      - text: "How do you prefer to receive information?"
+        buttons:
+        - title: "In Person"
+          payload: "in_person"
+        - title: "radio"
+          payload: "radio"
+        - title: "leaflet"
+          payload: "leaflet"
+        - title: "WhatsApp"
+          payload: "WhatsApp"
+        - title: "SMS"
+          payload: "SMS"
+        - title: "Other"
+          payload: "Other"
+
+    utter_ask_feedback_eng:
+      - text: "Did we do ok?"
+        buttons:
+        - title: "Yes"
+          payload: "/affirm_eng"
+        - title: "No"
+          payload: "/deny_eng"
+
+    utter_ask_cc_action_topics_eng:
+      - text: "Let's get started... ask me anything! Or do any of these sound interesting? "
+        buttons:
+        - title: "Lifestyle"
+          payload: "lifestyle"
+        - title: "Community"
+          payload: "community"
+        - title: "Education"
+          payload: "education"
+
+    utter_ask_cc_comm_subtopics_eng:
+      - text: "Nice, we need people to inspire our communities! What kind of initiatives sound more suitable for your community?"
+        buttons:
+        - title: "Prevention"
+          payload: "prevention"
+        - title: "Advocacy"
+          payload: "advocacy"
+        - title: "Group action"
+          payload: "group_activities"
+
+    utter_ask_cc_group_action_eng:
+      - text: "There are many activities you can organize within your community that can make a positive impact and increase awareness on global warming. Some of my favorite ones are:"
+        buttons:
+        - title: "Planting trees"
+          payload: "planting_trees"
+        - title: "Shared gardens"
+          payload: "shared_gardens"
+        - title: "Games"
+          payload: "games"
+
+    utter_ask_cc_life_subtopics_eng:
+      - text: "Nice! Even small life style changes can help stop global warming. In what aspect of your life style would you like to make some positive impact?"
+        buttons:
+        - title: "Diet"
+          payload: "diet"
+        - title: "Travel"
+          payload: "travel"
+        - title: "Shopping"
+          payload: "shopping"
+
+    utter_answer_ccc_too_late_eng:
+      - text: "Major climate changes have already started to happen. Even if we stopped emitting greenhouse gases today, global warming would continue to happen for at least several more decades. That’s because it takes a while for the planet to respond, and because carbon dioxide lingers in the atmosphere for hundreds of years. But it may not be too late to avoid or limit some of the worst effects of climate change through both mitigation and adaptation."
+
+    utter_answer_ccc_what_is_greenhouse_effect_eng:
+      - text: "The greenhouse effect is the way in which heat is trapped close to the surface of the Earth by “greenhouse gases”, including carbon dioxide, methane and nitrous oxides. Greenhouse gases arise naturally, and are part of the make-up of our atmosphere. But in the last century or so, humans have been interfering with the energy balance of the planet, mainly through the burning of fossil fuels that give off additional carbon dioxide into the air. The level of carbon dioxide in the Earth’s atmosphere has been rising consistently for decades and traps extra heat near the surface of the Earth."
+
+    utter_answer_ccc_weather_vs_climate_eng:
+      - text: "“Weather” refers to the more local changes in the climate we see around us, on short timescales from minutes to hours to days to weeks. “Climate” refers to longer-term averages (they may be regional or global), and can be thought of as the weather averaged over several seasons, years or decades."
+
+    utter_answer_ccc_what_can_ifrc_do_eng:
+      - text: "As recognized auxiliaries of their governments, National Societies provide key support to public authorities in many areas and have played important roles in national decision-making forums on climate change and related risks. The community-based structure of National Societies is also a vital asset to address climate change and risk reduction from the community level."
+
+    utter_answer_ccc_is_tree_planting_good_eng:
+      - text: "The Viet Nam Red Cross mangrove programme, active for close to two decades, covers nearly 9,000 hectares in 10 provinces, about 7 per cent of all mangroves in Vietnam, and helps to protect some 350,000 people from sea surges. The mangroves also contribute to mitigation because they will sequester some 16 million tons of carbon dioxide by 2025. "
+
+    utter_answer_ccc_explain_ccc_negotiations_eng:
+      - text: "The Intergovernmental Panel on Climate Change (IPCC) was created in 1988 and issues regular reports to guide global policy dialogue on climate change. The United Nations Framework Convention on Climate Change (UNFCCC) was created in 1992 and provides the framework for global response to the climate change problem. Individual countries participate in the UNFCCC as ‘Parties’ in the process to combat climate change. The yearly Conference of Parties (CoP) is the decision-making body for the UNFCCC."
+
+    utter_answer_ccc_tracking_and_measurement_eng:
+      - text: "Climate change is tracked through seasonal and annual forecasts, climate projections of the response of the climate system to actions such as greenhouse gas emissions, and climate modelling to simulate the complex interactions within the climate system."
+
+    utter_answer_ccc_do_scientists_agree_eng:
+      - text: "97% of actively publishing climate scientists agree that Earth’s climate is warming. There is no credible alternative to that advanced by the vast majority of experts on the numerous fields studying the planet, its biology, its geological behaviour and its variables and variations. "
+
+    utter_answer_ccc_what_is_carbon_footprint_eng:
+      - text: "A carbon footprint is the total greenhouse gas (GHG) emissions caused by an individual, event, organization, service, or product, expressed as carbon dioxide equivalent. Greenhouse gases can be emitted through the burning of fossil fuels, land clearance and the production and consumption of food, manufactured goods, materials, wood, roads, buildings, transportation and other services. Calculating your own carbon footprint is difficult, but online calculators can provide a rough estimate of your footprint."
+
+    utter_answer_ccc_greenest_countries_eng:
+      - text: "According to the Environmental Performance Index, Finland, Iceland, Sweden, Denmark, and Slovenia are the top 5 greenest countries on Earth."
+
+    utter_answer_ccc_costs_of_doing_nothing_eng:
+      - text: "By 2050, 200 million people every year could need international humanitarian aid as a result of a cruel combination of climate-related disasters and the socioeconomic impact of climate change. This is nearly twice the estimated 108 million people who need help today from the international humanitarian system because of floods, storms, droughts and wildfires. Even by 2030, which is only a decade away, this number could increase almost 50 per cent."
+
+    utter_answer_ccc_how_stop_cc_eng:
+      - text: "Globally we need to cut greenhouse gas emissions to mitigate the human-induced drivers of climate change. While we cannot prevent storms, cyclones, heat waves and other climate and weather-related hazards from happening in the meantime, we can do something about the impacts they have. There are measures that can be introduced to make development more inclusive, and to better reduce the risk of and manage climate-related disasters. It is crucial to invest in climate adaptation, and to build resilience in the communities, countries, and regions at risk."
+
+    utter_answer_ccc_how_fast_heating_eng:
+      - text: "The Earth has gotten roughly 1-1.5°C warmer since 1880. Because climate has always varied naturally, following rotation variations and other factors, it is important to understand the speed of this phenomenon to get the Human factor influence. The average rate of temperature change in North America since 1970 has been 0.3°C per decade since that date. This is 10x faster than when the planet exits its glacial periods."
+
+    utter_answer_ccc_what_are_global_commitments_eng:
+      - text: "The main international effort is the 2015 Paris climate accord, which is part of  the United Nations Framework Convention on Climate Change (UNFCCC). The backbone of the Paris accord is the global target of keeping global average temperatures from rising 2°C (compared to temperatures before the Industrial Revolution) by the end of the century. Beyond 2 degrees, we risk dramatically higher seas, changes in weather patterns, food and water crises, and an overall more hostile world."
+
+    utter_answer_ccc_my_countries_co2_eng:
+      - text: "The world’s countries emit vastly different amounts of heat-trapping  gases into the atmosphere. Estimates from the International Energy Agency of carbon dioxide (CO2) emissions  for each country can be found here: https://www.ucsusa.org/resources/each-countrys-share-co2-emissions "
+
+    utter_answer_ccc_how_much_my_co2_eng:
+      - text: "There are an array of online and free carbon footprint calculators. These are important as carbon footprints vary by country depending on the greenhouse gas emissions required to produce goods and services in that country. In addition to look at current footprint, it's also good to look at what our targets should be. This article from UNU outlines the '10-tonne lifestyle' that has been outlined by Mike Berners-Lee (https://ourworld.unu.edu/en/uncovering-the-carbon-footprint-of-everything)."
+
+    utter_answer_ccc_affect_of_covid_eng:
+      - text: "According to a thought piece from IFRC colleagues, 'less than 0.2 per cent of the nearly US$ 12 trillion committed to Covid-19 recovery by the world’s 50 largest economies has been committed to stimulate low-carbon, greener elements of their economies'. But there are steps we can take to ensure that recovery from COVID leads to a 'greener, more resilient society that leaves no one behind'."
+
+    utter_answer_ccc_how_can_we_promote_eng:
+      - text: "A growing number of Red Cross/Red Crescent national societies recognize the need to integrate climate change into their work, but it’s not always clear where to begin. The RCRC Climate Guide provides a How-to guide: https://www.climatecentre.org/downloads/files/RCRC_climateguide.pdf#page=16"
+
+    utter_answer_ccc_climate_crisis_impact_health_eng:
+      - text: "As climate change worsens, we experience more deaths and health complications due to heat-waves, natural disasters and extreme weather events such as floods and more intense storms, spreading of life-threatening insect-borne diseases such as malaria to new places, and emerging infectious diseases. Decreases in crop yields and access to freshwater will lead to growing food insecurity and water supply shortages in some areas. Vulnerable, disadvantaged, low-income and child populations, particularly in developing countries and areas with weak infrastructure, will be disproportionately impacted."
+
+    utter_answer_ccc_climate_crisis_impact_migration_eng:
+      - text: "Climate change is projected to increase the displacement of people, with migrants and refugees being more susceptible to extreme weather events. Extreme temperature, extreme precipitation, storm surges, coastal sea level rise and flooding, and damaging cyclones are climate-related drivers of migration. For instance, given our current climate change trajectory, water scarcity is expected to displace between 24 million and 700 million people in some arid and semi-arid places by 2030. Climate change can also indirectly increase risks of violent conflicts and migration by amplifying poverty and economic shocks."
+
+    utter_answer_ccc_what_is_forecast_based_financing_eng:
+      - text: "Forecast-based Financing (FbF) uses in-depth forecast information and risk analysis to enable access to humanitarian funding for early action. In this approach, stakeholders determine in advance how financial resources will be allocated and set a specific forecast threshold that will trigger the release of those funds. The goal of FbF is to anticipate disasters, prevent their impact, if possible, and reduce human suffering and losses.  For more information, watch this video (https://youtu.be/UjhFfbQpPf8) or visit www.forecast-based-financing.org "
+
+    utter_answer_ccc_climate_crisis_vs_pandemic_eng:
+      - text: "Action on climate change is necessary to prevent future pandemics. For example, preventing deforestation - a root cause of climate change - can help address biodiversity loss and slow animal migrations that increase risks of infectious disease spread among humans. The UN has cited the Covid-19 response and recovery as a major opportunity to build back in ways that enhance sustainability, equity and climate resilience.  Read more about the UN’s statement on Climate Change and Covid-19 here: https://www.un.org/en/un-coronavirus-communications-team/un-urges-countries-%E2%80%98build-back-better%E2%80%99 "
+
+    utter_answer_ccc_effect_of_climate_crisis_on_food_water_security_eng:
+      - text: "Factors such as warming, changing precipitation patterns and greater frequency of extreme events have already lessened food security in dryland regions, particularly in Africa, and high mountain regions of Asia and South America. Similarly, tropical developing regions, where food security is already a problem, are expected to experience reduced crop yield. In addition, more than 2 billion people currently live in countries experiencing high water stress, which will likely worsen as climate change intensifies."
+
+    utter_answer_ccc_effect_of_climate_crisis_on_livelihoods_eng:
+      - text: "Climate change, when compounded with other cultural, political and socio-economic shocks and stressors, drives people to change lifestyles, migrate or adopt entirely new ways of earning a living. Factors such as extreme heat, soil degradation, and changing precipitation patterns threaten farming and livestock. Similarly, global sea level rise, warming and acidification of the oceans and changes in river and lake ecosystems will harshly affect fishing and tourism industries."
+
+    utter_answer_ccc_does_climate_crisis_cost_lives_eng:
+      - text: "According to WHO data, climate change is already causing tens of thousands of deaths every year from changing patterns of disease, extreme weather events like heat waves and floods, degradation of water supplies and sanitation, and impacts on agriculture. Between 2030 and 2050, climate change is expected to cause 250,000 additional annual deaths from malnutrition, malaria, diarrhoea and heat stress. Climate change intersects with social inequality, so disadvantaged groups are disproportionately impacted by these adverse effects."
+
+    utter_answer_ccc_evidence_of_climate_crisis_eng:
+      - text: "According to the IPCC, the scientific evidence for the warming of Earth's climate system is unequivocal. Observed trends include a rise in Earth’s surface temperature, warming of the atmosphere and ocean, sea level rise, and declining arctic sea ice and snow cover. Data gathered from technology such as satellites and ancient, or paleoclimate, evidence found in tree rings, ocean sediments, coral reefs and layers of sedimentary rocks show that the current warming is occurring roughly ten times faster than the average rate of ice-age-recovery warming."
+
+    utter_answer_ccc_does_weather_reflect_climate_crisis_eng:
+      - text: "“Weather” refers to local and short-term changes in climate we see around us, whereas climate is Earth’s long term average of weather patterns. Thus, short term, regional weather phenomena such as cold waves or winter weather does not mean climate change and the warming of the Earth is not happening. The overall, long-term increase in hot weather, heat waves and intensity of precipitation events, which we will experience as daily weather over time, is a reflection of Earth's changing climate."
+
+    utter_answer_ccc_does_climate_change_exist_alongside_coldwaves_eng:
+      - text: "Climate change refers to long-term change in the average weather patterns. Temperature rise and changing weather is not uniform across the globe or over time. Thus, a short-term weather phenomenon such as a cold wave that occurs in a certain region does not reflect the trajectory of the climate of the Earth as a whole. Although cold waves are projected to become less intense as average global temperatures rise, periods of extreme cold weather can still occur, particularly during winter. "
+
+    utter_answer_ccc_is_climate_change_natural_eng:
+      - text: "The IPCC concluded that there is a more than 95% probability that human activities over the past 50 years have warmed our planet. Climate models are used to conclude that natural processes (such as solar irradiance changes) alone are not responsible for the observed temperature trend over the past century. Scientists attribute the rise in global temperatures mainly to the industrialized burning of fossil fuels that give off additional greenhouse gases such as carbon dioxide, methane and nitrous oxide into the atmosphere."
+
+    utter_answer_ccc_problem_with_warm_weather_eng:
+      - text: "Ocean acidification and warming, sea level rise, soil degradation, drought, flooding, heat waves and extreme precipitation events are very likely to increase as global temperatures rise. So while some people may like the sound of warmer weather, the heating of Earth's climate system and the overall, long-term increase in extreme temperatures will severely disrupt ecosystems, threaten our food and water security, and harm the health and livelihoods of people around the globe."
+
+    utter_answer_ccc_impact_of_Earth_warming_eng:
+      - text: "Continuing ocean acidification and warming, sea level rise, drought, flooding, heat waves and extreme precipitation events are very likely to increase as average global temperatures rise. As a result, ecosystems will be severely disrupted and human populations will face a wide range of hazards such as food and water insecurity, loss of property, and increased health complications. The vast majority of scientists consider a rise of 2 degrees C as the tipping point for catastrophic and irreversible impacts, so we need to act now to reduce global greenhouse gas emissions and avoid accelerating the warming of the Earth."
+
+    utter_answer_ccc_individual_choices_matter_eng:
+      - text: "Individual choices have contributed to the major processes of consumption that fuel climate change. Thus, small changes like traveling more sustainably, saving energy or eating less meat can also make a big difference when we all work together to slow climate change.  The United Nations Act Now campaign has identified 10 key actions that you can take in your daily life. https://www.un.org/en/actnow/index.shtml"
+
+    utter_answer_ccc_plastic_bags_eng:
+      - text: "Worldwide, around 500 billion plastic bags are consumed annually. Their production requires 60 million barrels of oil; they take up to 1000 years to decompose. Bring your own bag when you shop and you can help eliminate plastics from our environment."
+
+    utter_answer_ccc_recycling_eng:
+      - text: "Manufacturing new items emits a large number of greenhouse gasses per year. Recycling is a cost-effective and eco-friendly way to eliminate waste and it doesn’t emit greenhouse gasses into the environment."
+
+    utter_answer_ccc_lifestyle_transportation_eng:
+      - text: "When it comes to transportation it’s important to travel more sustainably, for instance reduce personal and business air-travel, use eco-friendly car alternatives and, if possible, consider biking to work every day. Bonus point, you will save money and stay fit!"
+
+    utter_answer_ccc_lifestyle_diet_eng:
+      - text: "Our diet and food choices have a significant impact on our carbon footprint. There are very large differences in the GHG emissions of different foods: producing 1 kg of beef emits 60 kg of greenhouse gases (CO2-equivalents), while 1 kg of peas emits just 1 kg of greenhouse gases."
+
+    utter_answer_ccc_lifestyle_local_diet_eng:
+      - text: "When it comes to diet choices... buying local and seasonal food can have a positive impact too! Also locally sourced foods tend to be fresher and tastier as they don’t have to travel long distances before reaching our stores… additionally we can consider eating meat less frequently"
+
+    utter_answer_ccc_advocacy_intro_eng:
+      - text: "Advocacy is an essential process of influencing people or institutions to achieve desired policy, practice and social and political changes. Advocacy can take many different forms. In order to be effective in our advocacy and make a real difference in our future, we need to understand the barriers to change and develop strategies to overcome them."
+
+    utter_answer_ccc_advocacy_toolkit_eng:
+      - text: "Wonderful! Thank you for your interest in advocacy! Here is a toolkit with helpful information. Warning: Long document! I suggest to read it on a big screen… With this toolkit you will be able to learn more about how to plan advocacy for climate change, how to engage the public and the media, influence leaders, support local voices and much more! https://www.southernvoices.net/en/documents/key-documents/43-advocacy-toolkits/file.html "
+
+    utter_answer_ccc_group_planting_trees_eng:
+      - text: "Tree planting helps both to mitigate climate change and adapt to it, and brings a range of health and economic benefits. Growing trees absorb carbon dioxide (CO2), one of the main greenhouse gases causing global warming; it is locked in while the trees remain alive. For a tree planting checklist please follow this link: https://www.climatecentre.org/downloads/files/Small%20Simple%20Actions_FINAL_Climate%20Change-IFRC2016.pdf#page=9"
+
+    utter_answer_ccc_shared_gardens_eng:
+      - text: "Community gardens offer environmental, social and economic benefits, promoting learning, increasing access to locally grown fruits and vegetables, reducing waste, increasing civic engagement and ties within the community, and improving air and soil quality and water infiltration. Individuals and communities can get involved in simple urban gardening activities."
+
+    utter_answer_ccc_games_eng:
+      - text: "Games are a fun but serious way to learn and plan. Games can help you brainstorm together to list and prioritize actions to take. You can learn more here: https://www.climatecentre.org/resources-games/games"
+
+    utter_answer_ccc_prevention_plans_eng:
+      - text: "Emergency services are not always able to respond everywhere immediately during large-scale emergencies. It is most likely to be a member of your community or family that will provide initial assistance during an emergency. Communities who are better connected, knowledgeable about their risks and vulnerabilities and organized, cope better with the impacts of disasters. To the extent possible, you could work on a family and community disaster plan. You can learn more about this here: http://www.redcross.org.au/getmedia/2d973b71-d7d5-4d39-b478-233d5cbf15c1/RediCommunitiesGuide.pdf.aspx"
+
+    utter_answer_ccc_start_cc_education_eng:
+      - text: "Awesome! There is a lot of confusion and misinformation about this, so I am very happy to help... I can for example answer questions about the greenhouse effect, how gas emissions have changed over time, or how climate change is tracked over time."
+
+    utter_anything_else_fra:
+      - text: "Avez-vous d’autres questions auxquelles vous aimeriez que je réponde ?"
+
+    utter_ask_anything_else_fra:
+      - text: "Avez-vous d’autres questions auxquelles vous aimeriez que je réponde ?"
+      - text: "Avez-vous d’autres questions ?"
+
+    utter_ask_feedback_reason_fra:
+      - text: "À votre avis, que pouvons-nous encore améliorer ?"
+
+    utter_ask_first_time_fra:
+      - text: "Est-ce la première fois que nous discutons ?"
+
+    utter_ask_given_name_fra:
+      - text: "Comment souhaitez-vous que je vous appelle?"
+      - text: "Comment vos amis vous appellent ?"
+
+    utter_collect_fallback_fra:
+      - text: "Apparemment, j’ai quelques difficultés. Je suis désolé. Recommençons, comment puis-je vous aider aujourd'hui ?"
+      - text: "Désolé, je n'ai pas bien compris. Pouvez-vous répéter votre question d'une manière différente, s'il vous plaît."
+
+    utter_get_back_on_topic_fra:
+      - text: "Souhaitez-vous de l’aide sur des questions concernant le changement climatique ?"
+
+    utter_get_informed_consent_fra:
+      - text: "Sachez que nous nous engageons à ne pas utiliser vos données personnelles, y compris votre numéro de téléphone. Nous analyserons nos conversations afin d’améliorer le service mais ceci est complétement anonyme. Si vous continuez cette conversation, nous considérons donc que vous êtes d'accord."
+
+    utter_goodbye_fra:
+      - text: "Merci de votre visite. Revenez à tout moment et n'hésitez pas à diffuser les nouvelles de ce service avec votre famille et vos amis! "
+
+    utter_greet_with_name_fra:
+      - text: "Bonjour {given_name}"
+
+    utter_introduce_survey_fra:
+      - text: "Je parle le français, l’espagnol et l’arabe mais j'apprends à parler d’autres langues. J’aimerais vous poser quelques questions sur les langues que vous connaissez ..."
+
+    utter_out_of_scope_fra:
+      - text: "Désolé, je ne sais pas encore comment répondre à cette question"
+
+    utter_reply_goodbye_fra:
+      - text: "Au revoir. N'hésitez pas à me recontacter si vous avez d’autres questions."
+
+    utter_reply_greeting_fra:
+      - text: "Bonjour ! Merci de votre visite ! J’espère que vous appréciez notre sommet :-) Je ne fais pas ça depuis très longtemps, alors soyez patient avec moi !"
+
+    utter_reply_thanks_fra:
+      - text: "Merci à vous aussi !"
+
+    utter_reply_where_do_you_live_fra:
+      - text: "Je suis un ordinateur, j'habite dans les téléphones."
+      - text: "Je suis un ordinateur, j'habite dans les nuages"
+
+    utter_set_expectations_fra:
+      - text: "Je suis ici pour répondre aux questions sur le changement climatique. Je suis également ravi de faire quelques suggestions d’initiatives simples que nous pouvons prendre de façon individuelle et au sein de nos communautés afin d’accroître la sensibilisation et commencer à avoir un impact positif. "
+
+    utter_thanks_for_your_feedback_fra:
+      - text: "Merci, très intéressant !"
+      - text: "J'apprécie vos commentaires"
+
+    utter_welcome_back_fra:
+      - text: "Quel plaisir de vous revoir !"
+      - text: "Merci de revenir discuter avec moi !"
+
+    utter_reply_whats_your_name_fra:
+      - text: "Je n'ai pas encore de nom, je ne suis qu'un robot."
+
+    utter_reply_to_request_for_french_fra:
+      - text: "Désolé, je crois que je n’ai pas du tout compris la question. Pourriez-vous réessayer ?"
+
+    utter_reply_to_wrong_answer_fra:
+      - text: "Je suis désolé, je prends note pour que nous puissions faire les changements dès que possible."
+
+    utter_unknown_myths_fra:
+      - text: "Je vais essayer de me renseigner"
+
+    utter_reply_about_privacy_fra:
+      - text: "Nous ne collectons aucune information personnelle"
+
+    utter_games_transition_fra:
+      - text: "Je suis content que vous ayez posé la question ! Tout le monde ne sait pas que…"
+
+    utter_shopping_intro_fra:
+      - text: "J'aime à penser que les habitudes d'achat doivent aller de pair avec les habitudes de recyclage !"
+
+    utter_transition_question_fra:
+      - text: "Souhaitez-vous en savoir plus à ce sujet ?"
+      - text: "Prêts pour la suite ?"
+
+    utter_start_cc_education_fra:
+      - text: "Super ! Il y a beaucoup de confusion et de désinformation autour de nous, et je me ferai un plaisir de vous aider à vous informer... Par exemple, je peux répondre à des questions sur l'effet de serre, ou sur la façon dont les émissions de gaz ont changé au fil du temps, ou encore sur la façon dont le changement climatique a été suivi au fil des années. Alors, comment puis-je vous aider ?"
+
+    utter_how_can_help_fra:
+      - text: "Alors n’hésitez pas à me poser votre question !"
+
+    utter_my_fallback_fra:
+      - text: "J'ai du mal à comprendre votre question…"
+
+    utter_shopping_plastic_bags_fra:
+      - text: "Dans le monde, environ 500 milliards de sacs en plastique sont utilisés chaque année. Leur production nécessite 60 millions de barils de pétrole ; il leur faudra jusqu'à 1000 ans pour se décomposer. Apportez votre propre sac lorsque vous faites vos courses et vous pourrez ainsi contribuer à la suppression des plastiques de notre environnement !"
+
+    utter_who_is_twb_fra:
+      - text: "Nous sommes Translators without Borders (TWB), une organisation à but non lucratif œuvrant pour un monde où la connaissance ne connaît pas de barrières linguistiques."
+
+    utter_ccc_what_is_cc_fra:
+      - text: "Le changement climatique est l'augmentation continue de la température moyenne du système climatique terrestre et les conséquences de cette augmentation. Les conséquences comprennent des changements dans les régimes de précipitations, des tempêtes plus violentes, l'intensification des vagues de chaleur et l'élévation du niveau de la mer. Bien qu'il y ait eu dans le passé des périodes de changement climatique, leur rythme et leur ampleur depuis le milieu du XXe siècle sont sans précédent."
+
+    utter_ask_location_fra:
+      - text: "Où êtes-vous?"
+        buttons:
+        - title: "L'Europe "
+          payload: "europe"
+        - title: "Océanie"
+          payload: "oceania"
+        - title: "Afrique"
+          payload: "africa"
+        - title: "Amérique du Nord"
+          payload: "nth_america"
+        - title: "Amérique du Sud"
+          payload: "sth_america"
+
+    utter_ask_myth_source_fra:
+      - text: "Si je peux vous demander - où avez-vous entendu cela?"
+        buttons:
+        - title: "Famille d'amis"
+          payload: "f_and_f"
+        - title: "Radio"
+          payload: "radio"
+        - title: "WhatsApp"
+          payload: "whatsapp"
+        - title: "Twitter"
+          payload: "twitter"
+
+    utter_ask_preferred_channel_fra:
+      - text: "Comment préférez-vous recevoir des informations?"
+        buttons:
+        - title: "En personne"
+          payload: "in_person"
+        - title: "radio"
+          payload: "radio"
+        - title: "brochure"
+          payload: "leaflet"
+        - title: "WhatsApp"
+          payload: "WhatsApp"
+        - title: "SMS"
+          payload: "SMS"
+        - title: "Autre"
+          payload: "Other"
+
+    utter_ask_feedback_fra:
+      - text: "Avons-nous bien fait?"
+        buttons:
+        - title: "Oui"
+          payload: "/affirm_fra"
+        - title: "Non"
+          payload: "/deny_fra"
+
+    utter_ask_cc_action_topics_fra:
+      - text: "Commençons ... pose-moi des questions, sinon, qu'est-ce qui te semble le plus intéressant?"
+        buttons:
+        - title: "Mode de vie"
+          payload: "lifestyle_fra"
+        - title: "Communauté"
+          payload: "community_fra"
+        - title: "Éducation"
+          payload: "education_fra"
+
+    utter_ask_cc_comm_subtopics_fra:
+      - text: "Bien, nous avons besoin de personnes pour inspirer nos communautés! Quel type d'initiatives semble plus adapté à votre communauté?"
+        buttons:
+        - title: "La prévention"
+          payload: "prevention_fra"
+        - title: "Plaidoyer"
+          payload: "advocacy_fra"
+        - title: "Action de groupe"
+          payload: "group_activities_fra"
+
+    utter_ask_cc_group_action_fra:
+      - text: "Il existe de nombreuses activités que vous pouvez organiser au sein de votre communauté et qui peuvent avoir un impact positif et accroître la sensibilisation au réchauffement climatique. Certains de mes préférés sont:"
+        buttons:
+        - title: "Planter des arbres"
+          payload: "planting_trees_fra"
+        - title: "Jardins partagés"
+          payload: "shared_gardens_fra"
+        - title: "Jeux"
+          payload: "games_fra"
+
+    utter_ask_cc_life_subtopics_fra:
+      - text: "Intéressant ! Même des changements de style de vie relativement simples peuvent aider à arrêter le réchauffement climatique. Quels aspect de votre style de vie souhaiteriez-vous influencer de manière positive ?"
+        buttons:
+        - title: "Nourriture"
+          payload: "diet_fra"
+        - title: "Voyage"
+          payload: "travel_fra"
+        - title: "Achats"
+          payload: "shopping_fra"
+
+    utter_answer_ccc_too_late_fra:
+      - text: "Des changements climatiques considérables ont déjà commencé à se manifester. Même si nous arrêtions d'émettre des gaz à effet de serre aujourd'hui, le réchauffement climatique continuerait pendant au moins plusieurs décennies. C’est parce que la planète met du temps à réagir et que le dioxyde de carbone persiste dans l’atmosphère pendant des centaines d’années. Mais il n'est peut-être pas trop tard pour éviter ou limiter certains des pires effets du changement climatique par des efforts d'atténuation et d'adaptation."
+
+    utter_answer_ccc_what_is_greenhouse_effect_fra:
+      - text: "L'effet de serre est la manière dont la chaleur est piégée près de la surface de la Terre par les « gaz à effet de serre », notamment le dioxyde de carbone, le méthane et les oxydes nitreux. Les gaz à effet de serre sont naturels et font partie de la composition normale de notre atmosphère. Mais aux alentours du siècle dernier, les humains ont perturbé l'équilibre énergétique de la planète, principalement en brûlant des combustibles fossiles qui dégagent du dioxyde de carbone dans l'air. Le niveau de dioxyde de carbone dans l'atmosphère terrestre n'a cessé d'augmenter depuis des décennies et piège la chaleur supplémentaire près de la surface de la Terre."
+
+    utter_answer_ccc_weather_vs_climate_fra:
+      - text: "La « météo » fait référence aux changements plus locaux du climat que nous observons autour de nous, sur des échelles de temps courtes allant de quelques minutes à quelques heures, à quelques jours, ou à plusieurs semaines. Le « climat » fait référence à des moyennes à plus long terme (elles peuvent être régionales ou mondiales) et on peut le considérer comme une moyenne du temps sur plusieurs saisons, années ou décennies."
+
+    utter_answer_ccc_what_can_ifrc_do_fra:
+      - text: "En tant qu'auxiliaires reconnus de leurs gouvernements, les Sociétés nationales apportent un soutien essentiel aux autorités publiques dans de nombreux domaines et ont joué un rôle important dans les forums nationaux de prise de décision sur le changement climatique et les risques qui en résultent. La structure communautaire des Sociétés nationales est également un atout essentiel pour lutter contre le changement climatique et la réduction des risques au niveau communautaire."
+
+    utter_answer_ccc_is_tree_planting_good_fra:
+      - text: "La Croix-Rouge vietnamienne déploie depuis près de deux décennies un programme en faveur des mangroves qui couvre près de 9 000 hectares dans 10 provinces c’est à dire environ 7% de toutes les mangroves du Vietnam, et contribue à protéger environ 350 000 personnes contre les vagues de la mer. Les mangroves contribuent également à l'atténuation car elles séquestreront environ 16 millions de tonnes de dioxyde de carbone d'ici 2025."
+
+    utter_answer_ccc_explain_ccc_negotiations_fra:
+      - text: "Le Groupe d'experts intergouvernemental sur l'évolution du climat (GIEC) a été créé en 1988 et publie des rapports réguliers pour guider le dialogue politique mondial sur le changement climatique. La Convention-cadre des Nations Unies sur les changements climatiques (CCNUCC) a été établie en 1992 et fournit le cadre de la réponse mondiale au problème du changement climatique. Des pays individuels participent à la CCNUCC en tant que « Parties » au processus de lutte contre les changements climatiques. La Conférence annuelle des Parties (CoP) est l'organe décisionnel de la CCNUCC."
+
+    utter_answer_ccc_tracking_and_measurement_fra:
+      - text: "Le changement climatique est suivi au moyen de prévisions saisonnières et annuelles, de projections climatiques de la réponse du système climatique à des actions telles que les émissions de gaz à effet de serre et d’une modélisation du climat pour simuler les interactions complexes au sein du système climatique."
+
+    utter_answer_ccc_do_scientists_agree_fra:
+      - text: "97% des climatologues publiant activement conviennent que le climat de la Terre se réchauffe. Il n'y a pas d'alternative crédible à celle avancée par la grande majorité des experts dans les nombreux domaines qui étudient la planète, sa biologie, son comportement géologique et ses variables et variations."
+
+    utter_answer_ccc_what_is_carbon_footprint_fra:
+      - text: "Une empreinte carbone est le total des émissions de gaz à effet de serre (GES) causées par un individu, un événement, une organisation, un service ou un produit, exprimé en équivalent de dioxyde de carbone. Les gaz à effet de serre peuvent être émis par la combustion de combustibles fossiles, le défrichement des terres et la production et la consommation de nourriture, de produits industriels, de matériaux, de bois, de routes, de bâtiments, de transports et d'autres services. Il est difficile de calculer votre propre empreinte carbone, mais les calculateurs en ligne peuvent donner une estimation approximative de votre empreinte."
+
+    utter_answer_ccc_greenest_countries_fra:
+      - text: "Selon l'indice de performance environnementale, la Finlande, l'Islande, la Suède, le Danemark et la Slovénie sont les 5 pays les plus verts de la planète."
+
+    utter_answer_ccc_costs_of_doing_nothing_fra:
+      - text: "D'ici 2050, 200 millions de personnes chaque année pourraient avoir besoin d'une aide humanitaire internationale en raison de la combinaison impitoyable de catastrophes liées au climat et de l'impact socio-économique du changement climatique. Cela représente près du double des 108 millions de personnes qui ont besoin aujourd'hui de l'aide du système humanitaire international en raison des inondations, des tempêtes, des sécheresses et des incendies de forêt. Même d'ici 2030, seulement dans une décennie, ce nombre pourrait augmenter de près de 50%."
+
+    utter_answer_ccc_how_stop_cc_fra:
+      - text: "À l'échelle mondiale, nous devons réduire les émissions de gaz à effet de serre pour atténuer les facteurs anthropiques du changement climatique. Nous ne pouvons certes pas empêcher les tempêtes, les cyclones, les vagues de chaleur et d'autres aléas climatiques et météorologiques de se produire entre-temps, mais nous pouvons faire quelque chose pour atténuer leurs effets. Il existe des mesures qui peuvent être introduites pour rendre le développement plus inclusif et pour mieux réduire les risques de catastrophes liées au climat et gérer celles qui surviennent. Il est essentiel d'investir dans l'adaptation au climat et de renforcer la résilience des communautés, des pays et des régions à risque."
+
+    utter_answer_ccc_how_fast_heating_fra:
+      - text: "La Terre s'est réchauffée d'environ 1 à 1,5 °C depuis 1880. Parce que le climat a toujours évolué naturellement, à la suite des variations de rotation et d'autres facteurs, il est important de comprendre la vitesse de ce phénomène pour estimer l'influence du facteur humain. Le taux moyen de changement de température en Amérique du Nord depuis 1970 est de 0,3 °C par décennie depuis cette date. C'est 10 fois plus rapide que lorsque la planète est sortie de ses périodes glaciaires."
+
+    utter_answer_ccc_what_are_global_commitments_fra:
+      - text: "Le principal effort international est l'accord de Paris sur le climat de 2015, qui fait partie de la Convention-cadre des Nations Unies sur les changements climatiques (CCNUCC). Le pilier principal de l’accord de Paris est l'objectif mondial d’éviter que les températures moyennes mondiales augmentent de plus de 2 °C (par rapport aux températures d'avant la révolution industrielle) d'ici la fin du siècle. Au-delà de 2 degrés, nous risquons une hausse considérable du niveau des mers, des changements dans les régimes météorologiques, des crises alimentaires et de l’eau, et un monde globalement plus hostile."
+
+    utter_answer_ccc_my_countries_co2_fra:
+      - text: "Les pays du monde émettent des quantités très différentes de gaz piégeant la chaleur dans l’atmosphère. L’Agence internationale de l'énergie publie des estimations des émissions de dioxyde de carbone (CO2) pour chaque pays. Elles peuvent être consultées ici: https://www.ucsusa.org/resources/each-countrys-share-co2-emissions "
+
+    utter_answer_ccc_how_much_my_co2_fra:
+      - text: "Il existe toute une gamme de calculateurs d'empreinte carbone en ligne et gratuits. Ceux-ci sont importants car les empreintes carbone varient d'un pays à l'autre en fonction des émissions de gaz à effet de serre nécessaires pour produire des biens et des services dans ce pays. En plus de regarder l'empreinte actuelle, il est également bon de regarder ce que devraient être nos objectifs. Cet article de l'UNU décrit le «mode de vie à 10 tonnes» décrit par Mike Berners-Lee (https://ourworld.unu.edu/en/uncovering-the-carbon-footprint-of-everything)."
+
+    utter_answer_ccc_affect_of_covid_fra:
+      - text: "Selon le document de réflexion des collègues de la FICR, « moins de 0,2 % des 12 000 milliards de dollars américains environ consacrés à la reprise post-Covid-19 par les 50 plus grandes économies du monde ont été engagés à stimuler des éléments à faible émission de carbone et plus verts de leurs économies ». Mais il y a des mesures que nous pouvons prendre pour s'assurer que la reprise post-COVID mène à une « société plus verte et plus résiliente qui ne laisse personne de côté »."
+
+    utter_answer_ccc_how_can_we_promote_fra:
+      - text: "Un nombre croissant de Sociétés nationales de la Croix-Rouge et du Croissant-Rouge reconnaissent la nécessité d’intégrer le changement climatique dans leurs travaux, mais on ne sait pas toujours par où commencer. Le Guide Climatique de la CRCR fournit des conseils pratiques: https://www.climatecentre.org/downloads/files/RCRC_climateguide.pdf#page=16"
+
+    utter_answer_ccc_climate_crisis_impact_health_fra:
+      - text: "À mesure que le changement climatique s'aggrave, nous subissons davantage de décès et de complications de santé dus aux vagues de chaleur, aux catastrophes naturelles et aux événements météorologiques extrêmes tels que des inondations et des tempêtes plus intenses, la propagation de maladies potentiellement mortelles transmises par des insectes telles que le paludisme dans de nouvelles zones et de nouvelles maladies infectieuses. La baisse des rendements des cultures et de l'accès à l'eau douce entraînera une insécurité alimentaire croissante et des pénuries d'eau dans certaines régions. Les populations vulnérables, défavorisées, à faible revenu et les enfants, en particulier dans les pays en développement Les populations vulnérables, défavorisées, à faible revenu et les enfants, en particulier dans les pays en développement et les zones à faibles infrastructures, seront touchées de manière disproportionnée.et les zones à faibles infrastructures, seront touchées de manière disproportionnée."
+
+    utter_answer_ccc_climate_crisis_impact_migration_fra:
+      - text: "Le changement climatique devrait augmenter le déplacement des personnes, les migrants et les réfugiés étant plus vulnérables aux événements météorologiques extrêmes. Les températures extrêmes, les précipitations extrêmes, les ondes de tempête, l'élévation du niveau de la mer au niveau des côtes ainsi que les inondations et les cyclones destructeurs sont des facteurs de migration liés au climat. Par exemple, compte tenu de la trajectoire actuelle du changement climatique, la pénurie d'eau devrait déplacer entre 24 millions et 700 millions de personnes dans certaines régions arides et semi-arides d'ici 2030. Le changement climatique peut également augmenter indirectement les risques de conflits violents et de migration en amplifiant la pauvreté ainsi que les chocs économiques."
+
+    utter_answer_ccc_what_is_forecast_based_financing_fra:
+      - text: "Le financement basé sur les prévisions (FbF) utilise des informations prévisionnelles approfondies et une analyse des risques pour permettre l'accès au financement humanitaire pour une action rapide. Dans cette approche, les parties prenantes déterminent à l'avance comment les ressources financières seront allouées et fixent un seuil de prévision spécifique qui déclenchera le déblocage de ces fonds.  Le but de FbF est d'anticiper les catastrophes, de prévenir leur impact, si possible, et de réduire les souffrances ainsi que les pertes humaines. Pour davantage d'informations, regardez cette vidéo (https://youtu.be/UjhFfbQpPf8) ou allez sur www.forecast-based-financing.org"
+
+    utter_answer_ccc_climate_crisis_vs_pandemic_fra:
+      - text: "Une action sur le changement climatique est nécessaire pour prévenir de futures pandémies. Par exemple, la prévention de la déforestation - une cause profonde du changement climatique - peut aider à lutter contre la perte de biodiversité et à ralentir les migrations d'animaux qui augmentent les risques de propagation de maladies infectieuses parmi les humains. L'ONU a cité la réponse et le relèvement de la Covid-19 comme une opportunité majeure de reconstruire de manière à améliorer la durabilité, l'équité et la résilience climatique.   En savoir plus sur la déclaration de l'ONU sur le changement climatique et la Covid-19 ici (en anglais) : https://www.un.org/en/un-coronavirus-communications-team/un-urges-countries-%E2%80%98build-back-better%E2%80%99 "
+
+    utter_answer_ccc_effect_of_climate_crisis_on_food_water_security_fra:
+      - text: "Des facteurs tels que le réchauffement, l'évolution des régimes de précipitations et la fréquence accrue des événements extrêmes ont déjà réduit la sécurité alimentaire dans les régions arides, en particulier en Afrique, et dans les régions de haute montagne d'Asie et d'Amérique du Sud. De même, les régions tropicales en développement, où la sécurité alimentaire est déjà un problème, devraient connaître une baisse du rendement des cultures. En outre, plus de 2 milliards de personnes vivent actuellement dans des pays connaissant un stress hydrique élevé, évènement qui va probablement s'aggraver avec l'intensification du changement climatique."
+
+    utter_answer_ccc_effect_of_climate_crisis_on_livelihoods_fra:
+      - text: "Le changement climatique, lorsqu'il est aggravé par d'autres crises et facteurs de stress culturels, politiques et socio-économiques, pousse les gens à changer de mode de vie, à migrer ou à adopter des modes de vie entièrement nouveaux. Des facteurs tels que la chaleur extrême, la dégradation des sols et l'évolution des régimes de précipitations menacent l'agriculture et le bétail. De même, l'élévation mondiale du niveau de la mer, le réchauffement et l'acidification des océans ainsi que les changements dans les écosystèmes fluviaux et lacustres affecteront durement les industries de la pêche et du tourisme."
+
+    utter_answer_ccc_does_climate_crisis_cost_lives_fra:
+      - text: "Selon les données de l'OMS, le changement climatique cause déjà des dizaines de milliers de décès chaque année en raison de l'évolution des schémas de maladies, d'événements météorologiques extrêmes tels que les vagues de chaleur et les inondations, la dégradation de l'approvisionnement en eau et de l'assainissement, ainsi que les impacts sur l'agriculture. Entre 2030 et 2050, le changement climatique devrait causer 250 000 décès annuels supplémentaires dus à la malnutrition, au paludisme, à la diarrhée et au stress thermique. Le changement climatique croise l'inégalité sociale, de sorte que les groupes défavorisés sont touchés de manière disproportionnée par ces effets négatifs."
+
+    utter_answer_ccc_evidence_of_climate_crisis_fra:
+      - text: "Selon le GIEC, les preuves scientifiques du réchauffement du système climatique terrestre sont sans équivoque.Les tendances observées incluent une élévation de la température de surface de la Terre, le réchauffement de l’atmosphère et de l’océan, l’élévation du niveau de la mer et le déclin de la glace de Mer arctique ainsi que de la couverture neigeuse.Les données recueillies à partir de technologies telles que les satellites et les preuves anciennes ou paléoclimatiques trouvées dans les anneaux de croissance des arbres, les sédiments marins, les récifs coralliens et les couches de roches sédimentaires montrent que le réchauffement actuel se produit environ dix fois plus rapidement que le taux moyen de réchauffement de la période glaciaire ."
+
+    utter_answer_ccc_does_weather_reflect_climate_crisis_fra:
+      - text: "Le 'temps' fait référence aux changements climatiques locaux et à court terme que nous observons autour de nous, alors que le climat est la moyenne à long terme des conditions météorologiques de la Terre. Ainsi, les phénomènes météorologiques régionaux à court terme tels que les vagues de froid ou le temps hivernal ne signifient pas un changement climatique et le réchauffement de la Terre ne se produit pas. L'augmentation globale et à long terme du temps chaud, des vagues de chaleur et de l'intensité des précipitations, que nous connaîtrons quotidiennement au fil du temps, reflète le changement climatique de la Terre."
+
+    utter_answer_ccc_does_climate_change_exist_alongside_coldwaves_fra:
+      - text: "Le changement climatique fait référence à un changement à long terme des conditions météorologiques moyennes.L'élévation de la température et les changements climatiques ne sont pas uniformes dans le monde ou au fil du temps.Ainsi, un phénomène météorologique à court terme tel qu'une vague de froid qui se produit dans une certaine région ne reflète pas la trajectoire du climat de la Terre dans son ensemble.Bien que les vagues de froid devraient devenir moins intenses à mesure que les températures mondiales moyennes augmentent, des périodes de froid extrême peuvent encore se produire, en particulier en hiver."
+
+    utter_answer_ccc_is_climate_change_natural_fra:
+      - text: "Le GIEC a conclu qu'il existe une probabilité de plus de 95% que les activités humaines au cours des 50 dernières années aient réchauffé notre planète. Les modèles climatiques sont utilisés pour conclure que les processus naturels (tels que les changements d'irradiation solaire) ne sont pas à eux seuls responsables de la tendance de température observée au cours du siècle dernier.Les scientifiques attribuent l'augmentation des températures mondiales principalement à la combustion industrialisée de combustibles fossiles qui dégagent des gaz à effet de serre supplémentaires tels que le dioxyde de carbone, le méthane et le protoxyde d’azote dans l'atmosphère."
+
+    utter_answer_ccc_problem_with_warm_weather_fra:
+      - text: "L'acidification et le réchauffement des océans, l'élévation du niveau de la mer, la dégradation des sols, la sécheresse, les inondations, les vagues de chaleur et les précipitations extrêmes sont très susceptibles d'augmenter à mesure que les températures mondiales augmentent.Ainsi, alors que certaines personnes peuvent aimer le bruit du temps plus chaud, le réchauffement du système climatique de la Terre et l'augmentation globale et à long terme des températures extrêmes perturberont gravement les écosystèmes, menaceront notre sécurité alimentaire et hydrique et nuiront à la santé et aux moyens de subsistance des gens autour.le globe."
+
+    utter_answer_ccc_impact_of_Earth_warming_fra:
+      - text: "L'acidification et le réchauffement continus des océans, l'élévation du niveau de la mer, la sécheresse, les inondations, les vagues de chaleur et les précipitations extrêmes sont très susceptibles d'augmenter à mesure que les températures mondiales moyennes augmentent. En conséquence, les écosystèmes seront gravement perturbés et les populations humaines seront confrontées à un large éventail de risques tels que l'insécurité alimentaire et hydrique, la perte de biens et des complications sanitaires accrues. La grande majorité des scientifiques considèrent une élévation de 2 degrés Celsius comme le point de basculement des impacts catastrophiques et irréversibles, nous devons donc agir maintenant pour réduire les émissions mondiales de gaz à effet de serre et éviter d'accélérer le réchauffement de la Terre."
+
+    utter_answer_ccc_individual_choices_matter_fra:
+      - text: "Les choix individuels ont contribué aux principaux processus de consommation qui alimentent le changement climatique. Ainsi, de petits changements comme voyager de manière plus durable, économiser de l'énergie ou manger moins de viande peuvent également faire une grande différence lorsque nous œuvrons tous ensemble pour ralentir le changement climatique.  La campagne Agir maintenant des Nations Unies a identifié 10 actions clés que vous pouvez prendre dans votre vie quotidienne. https://www.un.org/en/actnow/index.shtml "
+
+    utter_answer_ccc_plastic_bags_fra:
+      - text: "Dans le monde entier, environ 500 milliards de sacs en plastique sont consommés chaque année. Pour les produire, 60 millions de barils de pétrole sont utilisés ; il leur faudra jusqu'à 1000 ans pour se décomposer. Apportez votre propre sac lorsque vous faites les courses et vous contribuerez ainsi à éliminer les plastiques de notre environnement."
+
+    utter_answer_ccc_recycling_fra:
+      - text: "La fabrication de nouveaux objets émet un grand nombre de gaz à effet de serre par an. Le recyclage est un moyen économique et écologique d’éliminer les déchets et il n’émet pas de gaz à effet de serre dans l’environnement."
+
+    utter_answer_ccc_lifestyle_transportation_fra:
+      - text: "En ce qui concerne les transports, il est important de voyager de manière plus durable, de réduire les déplacements aériens personnels et ainsi professionels, d'utiliser des moyens de transport autres que la voiture respectueux de l'environnement et, si possible, d'envisager de se rendre chaque jour au travail à vélo. Et il y a un bonus : vous économiserez de l'argent et vous entretiendrez votre forme !"
+
+    utter_answer_ccc_lifestyle_diet_fra:
+      - text: "Notre alimentation et nos choix alimentaires ont un impact significatif sur notre empreinte carbone. Il existe de très grandes différences dans les émissions de GES des différents aliments : produire 1 kg de viande de bœuf émet 60 kg de gaz à effet de serre (équivalent CO2), tandis que 1 kg de pois émet seulement 1 kg de gaz à effet de serre."
+
+    utter_answer_ccc_lifestyle_local_diet_fra:
+      - text: "En ce qui concerne les choix alimentaires, l'achat d'aliments locaux et de saison peut également avoir un impact positif ! De plus, les aliments d'origine locale ont tendance à être plus frais et plus savoureux, car ils n'ont pas à parcourir de longues distances avant d'atteindre nos magasins... de plus, nous pouvons envisager de manger de la viande moins fréquemment"
+
+    utter_answer_ccc_advocacy_intro_fra:
+      - text: "Le plaidoyer est un processus essentiel pour influencer les personnes ou les institutions afin de parvenir aux politiques, pratiques et changements sociaux et politiques souhaités. Le plaidoyer peut prendre de nombreuses formes différentes. Afin d'être efficaces dans notre plaidoyer et de faire une réelle différence dans notre avenir, nous devons comprendre les obstacles au changement et développer des stratégies pour les surmonter."
+
+    utter_answer_ccc_advocacy_toolkit_fra:
+      - text: "Formidable ! Merci de vous intéresser au plaidoyer ! Voici une boîte à outils qui vous donnera des informations utiles sur le plaidoyer. Attention ! : Ce document est long ! Je vous suggère de le lire sur un grand écran... Avec cette trousse à outils, vous apprendrez comment planifier le plaidoyer en faveur du changement climatique, comment mobiliser le public et les médias, comment influencer les leaders, et comment permettre aux voix locales de s’exprimer et plein d’autres choses! https://www.southernvoices.net/en/documents/key-documents/43-advocacy-toolkits/file.html"
+
+    utter_answer_ccc_group_planting_trees_fra:
+      - text: "La plantation d'arbres aide à la fois à atténuer le changement climatique et à s'y adapter, et apporte une gamme d'avantages sanitaires et économiques. Les arbres en croissance absorbent le dioxyde de carbone (CO2), l'un des principaux gaz à effet de serre responsables du réchauffement climatique ; il est enfermé pendant que les arbres restent vivants. Pour une liste de contrôle pour la plantation d'arbres, veuillez suivre ce lien: https://www.climatecentre.org/downloads/files/Small%20Simple%20Actions_FINAL_Climate%20Change-IFRC2016.pdf#page=9"
+
+    utter_answer_ccc_shared_gardens_fra:
+      - text: "Les jardins communautaires offrent des avantages environnementaux, sociaux et économiques, en favorisant l'apprentissage, améliorant l'accès aux fruits et légumes cultivés localement, réduisant les déchets, augmentant l'engagement civique et les liens au sein de la communauté, et améliorant la qualité de l'air et du sol et l'infiltration de l'eau. Les individus et les communautés peuvent s'impliquer dans de simples activités de jardinage urbain."
+
+    utter_answer_ccc_games_fra:
+      - text: "Les jeux sont une façon amusante mais sérieuse d'apprendre et de planifier. Les jeux peuvent vous aider à réfléchir ensemble pour lister et hiérarchiser les actions à entreprendre. Vous pouvez en trouver plus ici: https://www.climatecentre.org/resources-games/games"
+
+    utter_answer_ccc_prevention_plans_fra:
+      - text: "Les services d'urgence ne sont pas toujours en mesure d'intervenir partout immédiatement lors de situations d'urgence de grande ampleur. Il est fort probable que ce soit un membre de votre communauté ou de votre famille qui fournira une assistance initiale en cas d'urgence. Les communautés qui sont mieux connectées, bien informées sur leurs risques et leurs vulnérabilités et organisées, font mieux face aux impacts des catastrophes. Dans la mesure du possible, vous pourriez travailler sur un plan de désastre familial et communautaire. Vous pouvez en savoir plus à ce sujet ici: https://www.redcross.org.au/getmedia/2d973b71-d7d5-4d39-b478-233d5cbf15c1/RediCommunitiesGuide.pdf.aspx"
+
+    utter_answer_ccc_start_cc_education_fra:
+      - text: "Génial ! Il y a beaucoup de confusion et de désinformation à ce sujet, je suis donc très heureux de vous aider… Je peux par exemple répondre à des questions concernant l'effet de serre, sur la façon dont les émissions de gaz ont changé au fil du temps, ou sur la façon dont le changement climatique est suivi dans le temps."
+
+    utter_anything_else_spa:
+      - text: "¿Tienes alguna otra pregunta?"
+
+    utter_ask_anything_else_spa:
+      - text: "¿Tienes alguna otra pregunta?"
+      - text: "¿Qué más le gustaría preguntar?"
+
+    utter_ask_feedback_reason_spa:
+      - text: "¿Podrías decirnos qué crees que podríamos mejorar?"
+
+    utter_ask_first_time_spa:
+      - text: "¿Es esta la primera vez que chateamos?"
+
+    utter_ask_given_name_spa:
+      - text: "¿Cómo te gustaría que te llame?"
+      - text: "¿Cómo te llaman tus amigos?"
+
+    utter_collect_fallback_spa:
+      - text: "Parece que estoy teniendo algunas dificultades. Lo siento. Empecemos de nuevo. ¿En qué puedo ayudarte hoy?"
+      - text: "Lo siento. No he entendido bien. Por favor, dilo de nuevo."
+
+    utter_get_back_on_topic_spa:
+      - text: "¿Tienes alguna pregunta sobre el cambio climático en la que pueda ayudarte?"
+
+    utter_get_informed_consent_spa:
+      - text: "Nos comprometemos a no utilizar nunca tus datos personales, incluido tu número de teléfono. Analizaremos las conversaciones para mejorar el servicio, pero este servicio es completamente anónimo. Si continúas con esta conversación, asumiremos que estás de acuerdo."
+
+    utter_goodbye_spa:
+      - text: "Gracias por pasar. ¡Vuelva en cualquier momento y no dude en difundir las noticias sobre este servicio con su familia y amigos! "
+
+    utter_greet_with_name_spa:
+      - text: "¡Hola, {given_name}!"
+
+    utter_introduce_survey_spa:
+      - text: "Hablo francés, español y árabe, pero estoy aprendiendo a hablar más idiomas. Me gustaría hacerte algunas preguntas sobre los idiomas que conoces..."
+
+    utter_out_of_scope_spa:
+      - text: "Lo siento, todavía no sé cómo responder a eso."
+
+    utter_reply_goodbye_spa:
+      - text: "Adiós. Por favor, comunícate nuevamente si tienes alguna pregunta."
+
+    utter_reply_greeting_spa:
+      - text: "¡Hola! ¡Gracias por tu visita! Espero que estés disfrutando de nuestra cumbre. Hace tiempo que no hago esto, así que, por favor, ¡ten paciencia!"
+
+    utter_reply_thanks_spa:
+      - text: "¡Gracias a ti también!"
+
+    utter_reply_where_do_you_live_spa:
+      - text: "Soy una computadora; vivo entre teléfonos."
+      - text: "Soy una computadora; vivo entre nubes."
+
+    utter_set_expectations_spa:
+      - text: "Estoy aquí para responder preguntas sobre el cambio climático. También me alegra poder compartir algunas sugerencias sobre iniciativas simples que podemos adoptar individualmente y en nuestras comunidades, para aumentar la conciencia y comenzar a generar un impacto positivo. "
+
+    utter_thanks_for_your_feedback_spa:
+      - text: "¡Gracias, eso es interesante!"
+      - text: "Gracias por tus comentarios"
+
+    utter_welcome_back_spa:
+      - text: "¡Hola de nuevo!"
+      - text: "¡Me alegro de que hayas vuelto!"
+
+    utter_reply_whats_your_name_spa:
+      - text: "Todavía no tengo nombre, solo soy un bot."
+
+    utter_reply_to_request_for_french_spa:
+      - text: "Lo siento, parece que he entendido mal la pregunta. ¿Podrías intentarlo de nuevo?"
+
+    utter_reply_to_wrong_answer_spa:
+      - text: "Lo siento, lo anotaremos y lo cambiaremos tan pronto como podamos."
+
+    utter_unknown_myths_spa:
+      - text: "Trataré de averiguar sobre eso."
+
+    utter_reply_about_privacy_spa:
+      - text: "No recopilamos ninguna información personal."
+
+    utter_games_transition_spa:
+      - text: "¡Me alegra que lo hayas preguntado! No todo el mundo sabe eso..."
+
+    utter_shopping_intro_spa:
+      - text: "¡Me gusta pensar que los hábitos de compra deben ir de la mano de los hábitos de reciclaje!"
+
+    utter_transition_question_spa:
+      - text: "¿Te gustaría aprender más sobre esto?"
+      - text: "¿Continuamos?"
+
+    utter_start_cc_education_spa:
+      - text: "¡Genial! Hay mucha confusión e información falsa, así que me alegra ayudar con esto... Por ejemplo, puedo responder preguntas sobre el efecto invernadero, cómo han cambiado las emisiones de gases de efecto invernadero con el tiempo, o cómo se registra el cambio climático a lo largo del tiempo. Entonces, ¿cómo puedo ayudar?"
+
+    utter_how_can_help_spa:
+      - text: "Así que, ¡pregúntame cualquier cosa!"
+
+    utter_my_fallback_spa:
+      - text: "No logro entender tu pregunta..."
+
+    utter_shopping_plastic_bags_spa:
+      - text: "Anualmente se consumen alrededor de 500 000 millones de bolsas de plástico en el mundo. Su producción requiere 60 millones de barriles de petróleo, y tardan hasta 1000 años en descomponerse. Si llevas tu propia bolsa al realizar las compras, podrás ayudar a eliminar los plásticos de nuestro medio ambiente."
+
+    utter_who_is_twb_spa:
+      - text: "Somos Translators without Borders (TWB), una organización sin fines de lucro que trabaja por un mundo en que el conocimiento trascienda las barreras lingüísticas."
+
+    utter_ccc_what_is_cc_spa:
+      - text: "El cambio climático es el aumento continuo de la temperatura media del sistema climático de la Tierra y las consecuencias de ese aumento. Las consecuencias incluyen cambios en los patrones de precipitaciones, tormentas más extremas, la intensificación de las olas de calor y el aumento del nivel del mar. Si bien ya se han observado períodos anteriores de cambio climático, su tasa y escala a partir de mediados del siglo XX no tienen precedentes."
+
+    utter_ask_location_spa:
+      - text: "¿Dónde estás?"
+        buttons:
+        - title: "Europa"
+          payload: "europe"
+        - title: "Oceanía"
+          payload: "oceania"
+        - title: "África"
+          payload: "africa"
+        - title: "Norteamérica"
+          payload: "nth_america"
+        - title: "Sudamerica"
+          payload: "sth_america"
+
+    utter_ask_myth_source_spa:
+      - text: "Si no te molesta que pregunte, ¿dónde escuchaste eso?"
+        buttons:
+        - title: "Amigos de la familia"
+          payload: "f_and_f"
+        - title: "Radio"
+          payload: "radio"
+        - title: "WhatsApp"
+          payload: "whatsapp"
+        - title: "Gorjeo"
+          payload: "twitter"
+
+    utter_ask_preferred_channel_spa:
+      - text: "¿Cómo prefiere recibir información?"
+        buttons:
+        - title: "En persona"
+          payload: "in_person"
+        - title: "radio"
+          payload: "radio"
+        - title: "folleto"
+          payload: "leaflet"
+        - title: "WhatsApp"
+          payload: "WhatsApp"
+        - title: "SMS"
+          payload: "SMS"
+        - title: "Otro"
+          payload: "Other"
+
+    utter_ask_feedback_spa:
+      - text: "¿Lo hicimos bien?"
+        buttons:
+        - title: "Si"
+          payload: "/affirm_spa"
+        - title: "No "
+          payload: "/deny_spa"
+
+    utter_ask_cc_action_topics_spa:
+      - text: "Empecemos ...Haz cualquier pregunta si no ¿qué te parece más interesante?"
+        buttons:
+        - title: "Estilo de vida"
+          payload: "lifestyle_spa"
+        - title: "Comunidad"
+          payload: "community_spa"
+        - title: "Educación"
+          payload: "education_spa"
+
+    utter_ask_cc_comm_subtopics_spa:
+      - text: "¡Bien, necesitamos gente para inspirar a nuestras comunidades! ¿Qué tipo de iniciativas suenan más adecuadas para su comunidad?"
+        buttons:
+        - title: "Prevención"
+          payload: "prevention_spa"
+        - title: "Abogacía"
+          payload: "advocacy_spa"
+        - title: "Acción de grupo"
+          payload: "group_activities_spa"
+
+    utter_ask_cc_group_action_spa:
+      - text: "Hay muchas actividades que puede organizar dentro de su comunidad que pueden tener un impacto positivo y aumentar la conciencia sobre el calentamiento global. Algunos de mis favoritos son:"
+        buttons:
+        - title: "Plantando árboles"
+          payload: "planting_trees_spa"
+        - title: "Jardines compartidos"
+          payload: "shared_gardens_spa"
+        - title: "Juegos"
+          payload: "games_spa"
+
+    utter_ask_cc_life_subtopics_spa:
+      - text: "¡Agradable! Incluso pequeños cambios en el estilo de vida pueden ayudar a detener el calentamiento global. ¿En qué aspecto de su estilo de vida le gustaría tener un impacto positivo?"
+        buttons:
+        - title: "Comida"
+          payload: "diet_spa"
+        - title: "Viaje"
+          payload: "travel_spa"
+        - title: "Compras"
+          payload: "shopping_spa"
+
+    utter_answer_ccc_too_late_spa:
+      - text: "Los mayores cambios climáticos ya han comenzado a suceder. Incluso, si dejáramos de emitir gases de efecto invernadero hoy, el calentamiento global continuaría ocurriendo durante al menos varias décadas más. Esto se debe a que el planeta demora un tiempo en responder, y porque el dióxido de carbono permanece en la atmósfera durante cientos de años. Sin embargo, posiblemente aún no sea demasiado tarde para evitar o limitar algunos de los peores efectos del cambio climático a través de la mitigación y la adaptación."
+
+    utter_answer_ccc_what_is_greenhouse_effect_spa:
+      - text: "El efecto invernadero es la forma en que el calor es retenido cerca de la superficie de la Tierra por los «gases de efecto invernadero», incluidos el dióxido de carbono, el metano y los óxidos nitrosos. Los gases de efecto invernadero surgen naturalmente y forman parte de la composición de nuestra atmósfera. Pero en el último siglo, aproximadamente, los seres humanos han estado interfiriendo con el equilibrio energético del planeta, principalmente a través de la quema de combustibles fósiles, que emiten dióxido de carbono adicional en el aire. El nivel de dióxido de carbono en la atmósfera de la Tierra ha aumentado constantemente durante décadas y retiene el calor adicional cerca de la superficie de la Tierra."
+
+    utter_answer_ccc_weather_vs_climate_spa:
+      - text: "El término «tiempo» se refiere a los cambios más locales en el clima que vemos a nuestro alrededor, en escalas de tiempo cortas de minutos a horas a días a semanas. El término «clima» se refiere a promedios a más largo plazo (pueden ser regionales o globales), y puede considerarse como el clima promediado durante varias estaciones, años o décadas."
+
+    utter_answer_ccc_what_can_ifrc_do_spa:
+      - text: "Las Sociedades Nacionales, como auxiliares reconocidas por los Gobiernos, brindan un apoyo clave a las autoridades públicas en muchas áreas y han desempeñado papeles importantes en los foros nacionales de toma de decisiones sobre el cambio climático y los riesgos relacionados. La estructura comunitaria de las Sociedades Nacionales es también un factor fundamental para abordar el cambio climático y la reducción de los riesgos desde el nivel comunitario."
+
+    utter_answer_ccc_is_tree_planting_good_spa:
+      - text: "El programa de manglares de la Cruz Roja de Viet Nam, activo durante casi dos décadas, cubre alrededor de 9000 hectáreas en 10 provincias, que representan aproximadamente el 7 % de todos los manglares en Viet Nam, y ayuda a proteger a unas 350 000 personas de las marejadas. Los manglares también contribuyen a la mitigación porque secuestrarán unos 16 millones de toneladas de dióxido de carbono para 2025."
+
+    utter_answer_ccc_explain_ccc_negotiations_spa:
+      - text: "El Grupo Intergubernamental de Expertos sobre el Cambio Climático (IPCC, por sus siglas en inglés) se creó en 1988 y publica informes periódicos para guiar el diálogo político mundial sobre el cambio climático. La Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC) se creó en 1992 y proporciona el marco para la respuesta global al problema del cambio climático. Los países individuales participan en la CMNUCC como «Partes» en el proceso para combatir el cambio climático. La Conferencia de las Partes (COP), que se celebra anualmente, es el órgano de toma de decisiones de la CMNUCC."
+
+    utter_answer_ccc_tracking_and_measurement_spa:
+      - text: "El cambio climático se supervisa a través de pronósticos estacionales y anuales, proyecciones climáticas de la respuesta del sistema climático a acciones tales como las emisiones de gases de efecto invernadero, y la modelización del clima para simular las complejas interacciones dentro del sistema climático."
+
+    utter_answer_ccc_do_scientists_agree_spa:
+      - text: "El 97 % de los científicos del clima que publican documentos activamente están de acuerdo en que el clima de la Tierra se está calentando. No existe una alternativa creíble al planteamiento de la gran mayoría de especialistas en los numerosos campos que estudian el planeta, su biología, su comportamiento geológico y sus variables y variaciones."
+
+    utter_answer_ccc_what_is_carbon_footprint_spa:
+      - text: "Una huella de carbono es la emisión total de gases de efecto invernadero (GEI) causada por un individuo, evento, organización, servicio o producto, expresada en dióxido de carbono equivalente. Los gases de efecto invernadero pueden emitirse a través de la quema de combustibles fósiles, la limpieza del suelo, y la producción y consumo de alimentos, productos manufacturados, materiales, madera, carreteras, edificios, transporte y otros servicios. Calcular tu propia huella de carbono es difícil, pero las calculadoras en línea pueden proporcionar una estimación aproximada."
+
+    utter_answer_ccc_greenest_countries_spa:
+      - text: "Según el Índice de Desempeño Ambiental, Finlandia, Islandia, Suecia, Dinamarca y Eslovenia son los cinco países más verdes de la Tierra."
+
+    utter_answer_ccc_costs_of_doing_nothing_spa:
+      - text: "Para 2050, 200 millones de personas cada año podrían necesitar asistencia humanitaria internacional como resultado de una cruel combinación de desastres relacionados con el clima y el impacto socioeconómico del cambio climático. Esto es casi el doble de los 108 millones de personas que se estima que necesitan ayuda actualmente del sistema humanitario internacional debido a inundaciones, tormentas, sequías e incendios forestales. Incluso para 2030, que está a solo una década de distancia, este número podría aumentar casi un 50 %."
+
+    utter_answer_ccc_how_stop_cc_spa:
+      - text: "A nivel mundial, necesitamos reducir las emisiones de gases de efecto invernadero para mitigar los factores agravantes del cambio climático causados por el ser humano. Mientras tanto, aunque no es posible impedir tormentas, ciclones, olas de calor y otros peligros relacionados con el clima y el tiempo, sí podemos hacer algo respecto a los impactos de estos fenómenos. Existen medidas que pueden introducirse para hacer que el desarrollo sea más inclusivo, y para reducir el riesgo de los desastres relacionados con el clima, así como para gestionarlos de manera más efectiva. Es fundamental invertir en la adaptación al cambio climático y desarrollar la resiliencia en las comunidades, los países y las regiones en riesgo."
+
+    utter_answer_ccc_how_fast_heating_spa:
+      - text: "La Tierra se ha vuelto aproximadamente de 1 a 1,5 °C más cálida desde 1880. Debido a que el clima siempre ha variado naturalmente, de acuerdo con las variaciones de rotación y otros factores, es importante comprender la velocidad de este fenómeno para determinar la influencia del factor humano. La tasa promedio de cambio de temperatura en América del Norte desde 1970 ha sido de 0,3 °C por década desde esa fecha. Esto es diez veces más rápido que cuando el planeta sale de sus periodos glaciales."
+
+    utter_answer_ccc_what_are_global_commitments_spa:
+      - text: "El principal esfuerzo internacional es el acuerdo climático de París (2015), que forma parte de la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC). El eje central del acuerdo de París es el objetivo global de evitar que la temperatura media mundial aumente 2 °C (en comparación con las temperaturas anteriores a la Revolución Industrial) para fines de siglo. Si supera los dos grados, corremos el riesgo de un aumento significativo del nivel del mar, cambios en los patrones climáticos, crisis de alimentos y agua, y un mundo en general más hostil."
+
+    utter_answer_ccc_my_countries_co2_spa:
+      - text: "Los países del mundo emiten en la atmósfera cantidades muy diferentes de gases que retienen el calor. Las estimaciones de la Agencia Internacional de Energía sobre las emisiones de dióxido de carbono (CO2) para cada país pueden consultarse aquí: https://www.ucsusa.org/resources/each-countrys-share-co2-emissions"
+
+    utter_answer_ccc_how_much_my_co2_spa:
+      - text: "Hay una gran variedad de calculadoras de huella de carbono en línea y gratuitas. Estas son importantes ya que las huellas de carbono varían según el país, en función de las emisiones de gases de efecto invernadero que se requieren para producir bienes y servicios en ese país. Además de mirar la huella actual, también es bueno considerar cuáles deberían ser nuestros objetivos. Este artículo de la UNU (Universidad de las Naciones Unidas) describe el «estilo de vida de 10 toneladas» propuesto por Mike Berners-Lee (https://ourworld.unu.edu/en/uncovering-the-carbon-footprint-of-everything)."
+
+    utter_answer_ccc_affect_of_covid_spa:
+      - text: "Según un artículo de opinión de colegas de la FICR, «menos del 0,2 % de los casi 12 billones de dólares estadounidenses destinados a la recuperación de la COVID-19 por las 50 economías más grandes del mundo se ha destinado a fomentar elementos más ecológicos y con bajas emisiones de carbono de sus economías». Pero hay pasos que podemos tomar para asegurarnos de que la recuperación de la COVID conduzca a una «sociedad más verde y resiliente que no deje a nadie atrás»."
+
+    utter_answer_ccc_how_can_we_promote_spa:
+      - text: "Un número creciente de Sociedades Nacionales de la Cruz Roja y la Media Luna Roja reconocen la necesidad de integrar el cambio climático en su trabajo, pero no siempre está claro por dónde comenzar. La Guía sobre el Clima de la Cruz Roja y la Media Luna Roja ofrece orientaciones prácticas: https://climatecentre.org/downloads/files/reports/RC_climateguide_ES_web.pdf#page=31"
+
+    utter_answer_ccc_climate_crisis_impact_health_spa:
+      - text: "A medida que el cambio climático empeora, experimentamos más muertes y complicaciones de salud debido a las olas de calor, los desastres naturales y los fenómenos meteorológicos extremos, como inundaciones y tormentas más intensas, la propagación de enfermedades potencialmente mortales transmitidas por insectos, como la transmisión de la malaria a lugares nuevos, y las enfermedades infecciosas nuevas. La disminución del rendimiento de los cultivos y del acceso a agua dulce provocará una creciente inseguridad alimentaria y escasez en el suministro de agua en algunas zonas. Las poblaciones vulnerables, desfavorecidas, de bajos ingresos y de niños y niñas, especialmente en los países en desarrollo y en zonas con una infraestructura deficiente, se verán afectadas de manera desproporcionada."
+
+    utter_answer_ccc_climate_crisis_impact_migration_spa:
+      - text: "Se prevé que el cambio climático aumente el desplazamiento de personas, y que los migrantes y los refugiados sean más susceptibles a los fenómenos meteorológicos extremos. Las temperaturas y las precipitaciones extremas, las marejadas ciclónicas, el aumento del nivel del mar en la costa y las inundaciones, y los ciclones dañinos son factores relacionados con el clima que impulsan la migración. Por ejemplo, dada la trayectoria actual del cambio climático, se prevé que la escasez de agua desplazará a entre 24 y 700 millones de personas en algunas zonas áridas y semiáridas para 2030. El cambio climático también puede aumentar indirectamente los riesgos de conflictos violentos y migración al aumentar la pobreza y los shocks económicos."
+
+    utter_answer_ccc_what_is_forecast_based_financing_spa:
+      - text: "El financiamiento basado en pronósticos utiliza información detallada de pronósticos y análisis de riesgo para permitir el acceso al financiamiento humanitario para la acción temprana. En este enfoque, las partes interesadas determinan de antemano cómo se asignarán los recursos financieros y establecen un umbral de pronóstico específico que desencadenará la liberación de esos fondos. El objetivo del financiamiento basado en pronósticos es anticiparse a los desastres, prevenir su impacto, si es posible, y reducir el sufrimiento humano y la pérdida de vidas.   Para obtener más información, mira este vídeo (https://youtu.be/UjhFfbQpPf8) o visita www.forecast-based-financing.org."
+
+    utter_answer_ccc_climate_crisis_vs_pandemic_spa:
+      - text: "Es necesario emprender acciones respecto al cambio climático para evitar futuras pandemias. Por ejemplo, evitar la deforestación, una causa fundamental del cambio climático, puede ayudar a abordar la pérdida de biodiversidad y las migraciones lentas de animales que aumentan los riesgos de propagación de enfermedades infecciosas entre las personas. La ONU se ha referido a la respuesta y recuperación de la COVID-19 como una gran oportunidad para una reconstrucción que mejore la sostenibilidad, la equidad y la resiliencia climática.   Lee más sobre la declaración de la ONU acerca del cambio climático y la COVID-19 aquí: https://www.un.org/en/un-coronavirus-communications-team/un-urges-countries-%E2%80%98build-back-better%E2%80%99 "
+
+    utter_answer_ccc_effect_of_climate_crisis_on_food_water_security_spa:
+      - text: "Factores como el calentamiento, los cambios en los patrones de precipitaciones y la mayor frecuencia de fenómenos extremos ya han disminuido la seguridad alimentaria en las regiones de tierras secas, especialmente en África, y en las regiones de alta montaña de Asia y América del Sur. De manera similar, se espera que las regiones tropicales en desarrollo, donde la seguridad alimentaria ya es un problema, experimenten una reducción del rendimiento de los cultivos. Además, más de 2000 millones de personas viven actualmente en países que padecen un alto estrés hídrico, que probablemente empeorará a medida que se intensifique el cambio climático."
+
+    utter_answer_ccc_effect_of_climate_crisis_on_livelihoods_spa:
+      - text: "El cambio climático, cuando se combina con otros factores estresantes y perturbaciones culturales, políticos y socioeconómicos, lleva a las personas a cambiar sus estilos de vida, migrar o adoptar formas completamente nuevas de ganarse la vida. Factores como el calor extremo, la degradación del suelo y los cambios en los patrones de precipitaciones amenazan la agricultura y la ganadería. Del mismo modo, el aumento global del nivel del mar, el calentamiento y la acidificación de los océanos y los cambios en los ecosistemas de ríos y lagos afectarán gravemente a las industrias pesquera y turística."
+
+    utter_answer_ccc_does_climate_crisis_cost_lives_spa:
+      - text: "Según datos de la OMS, el cambio climático ya está causando decenas de miles de muertes cada año debido a los cambios en los patrones de enfermedades, los fenómenos meteorológicos extremos, como olas de calor e inundaciones, la degradación de los suministros de agua y saneamiento y los impactos en la agricultura. Entre 2030 y 2050, se espera que el cambio climático cause 250 000 muertes adicionales cada año por desnutrición, malaria, diarrea y estrés por calor. El cambio climático se entrecruza con la desigualdad social, por lo que los grupos desfavorecidos se ven afectados de manera desproporcionada por estos efectos adversos."
+
+    utter_answer_ccc_evidence_of_climate_crisis_spa:
+      - text: "Según el IPCC, las pruebas científicas del calentamiento del sistema climático de la Tierra son inequívocas. Las tendencias observadas incluyen un aumento en la temperatura de la superficie de la Tierra, el calentamiento de la atmósfera y el océano, el aumento del nivel del mar y la disminución del hielo marino y la capa de nieve del Ártico. Los datos recopilados a partir de recursos tecnológicos como satélites y las evidencias del clima antiguo, o paleoclima, encontradas en anillos de árboles, sedimentos oceánicos, arrecifes de coral y capas de rocas sedimentarias, muestran que el calentamiento actual está ocurriendo aproximadamente diez veces más rápido que la tasa promedio de calentamiento que se dio tras el período glacial."
+
+    utter_answer_ccc_does_weather_reflect_climate_crisis_spa:
+      - text: "El término «tiempo» se refiere a los cambios locales y a corto plazo en el clima que vemos a nuestro alrededor, mientras que el clima es el promedio de las condiciones meteorológicas a largo plazo de la Tierra. Por lo tanto, los fenómenos meteorológicos regionales a corto plazo, como las olas de frío o el tiempo invernal, no implican que el cambio climático y el calentamiento de la Tierra no estén sucediendo. El aumento general a largo plazo del tiempo cálido, las olas de calor y la intensidad de las precipitaciones, que experimentaremos como condiciones meteorológicas diarias a lo largo del tiempo, son un reflejo del cambio en el clima de la Tierra."
+
+    utter_answer_ccc_does_climate_change_exist_alongside_coldwaves_spa:
+      - text: "El cambio climático se refiere al cambio a largo plazo en las condiciones meteorológicas promedio. El aumento de temperatura y los cambios en el tiempo no son uniformes en todo el mundo ni a lo largo del tiempo. Por lo tanto, un fenómeno meteorológico a corto plazo, como una ola de frío que se produce en una región determinada, no refleja la trayectoria del clima de la Tierra en su conjunto. Aunque se prevé que las olas de frío se volverán menos intensas a medida que aumente la temperatura media mundial, aún pueden ocurrir períodos de frío extremo, especialmente durante el invierno."
+
+    utter_answer_ccc_is_climate_change_natural_spa:
+      - text: "El IPCC concluyó que existe una probabilidad superior al 95 % de que las actividades humanas de los últimos 50 años hayan calentado nuestro planeta. Los modelos climáticos se utilizan para concluir que los procesos naturales (como los cambios de irradiancia solar) por sí solos no son responsables de la tendencia de temperatura observada durante el siglo pasado. Los científicos atribuyen el aumento de las temperaturas globales principalmente a la quema industrializada de combustibles fósiles, que emiten gases de efecto invernadero adicionales, como dióxido de carbono, metano y óxido nitroso, a la atmósfera."
+
+    utter_answer_ccc_problem_with_warm_weather_spa:
+      - text: "Es muy probable que la acidificación y el calentamiento del océano, el aumento del nivel del mar, la degradación del suelo, las sequías, las inundaciones, las olas de calor y las precipitaciones extremas se incrementen a medida que aumente la temperatura mundial. Entonces, aunque a algunas personas pueda parecerles agradable la idea de un tiempo más cálido, el calentamiento del sistema climático de la Tierra y el aumento general a largo plazo de las temperaturas extremas alterarán gravemente los ecosistemas, amenazarán nuestra seguridad alimentaria y del agua y dañarán la salud y los medios de subsistencia de las personas en todo el mundo."
+
+    utter_answer_ccc_impact_of_Earth_warming_spa:
+      - text: "Es muy probable que la acidificación y el calentamiento continuo del océano, el aumento del nivel del mar, las sequías, las inundaciones, las olas de calor y las precipitaciones extremas se incrementen a medida que aumente la temperatura media mundial. Como resultado, los ecosistemas se verán gravemente afectados y las poblaciones humanas se enfrentarán a una amplia variedad de peligros, como la inseguridad alimentaria y del agua, la pérdida de bienes y el aumento de las complicaciones de salud. La gran mayoría de los científicos considera un aumento de 2 °C como el punto de inflexión para impactos catastróficos e irreversibles, por lo que debemos actuar ahora para reducir las emisiones mundiales de gases de efecto invernadero y evitar acelerar el calentamiento de la Tierra."
+
+    utter_answer_ccc_individual_choices_matter_spa:
+      - text: "Las elecciones individuales han contribuido a los principales procesos de consumo que impulsan el cambio climático. Por lo tanto, cambios pequeños, como viajar de manera más sostenible, ahorrar energía o comer menos carne, también pueden generar una gran diferencia si todas las personas trabajamos juntas para ralentizar el cambio climático.   La campaña Actúa Ahora de las Naciones Unidas ha identificado 10 acciones clave que puedes realizar en tu vida diaria. https://www.un.org/en/actnow/index.shtml"
+
+    utter_answer_ccc_plastic_bags_spa:
+      - text: "Anualmente se consumen alrededor de 500 000 millones de bolsas de plástico en el mundo. Su producción requiere 60 millones de barriles de petróleo, y tardan hasta 1000 años en descomponerse. Si llevas tu propia bolsa al realizar las compras, podrás ayudar a eliminar los plásticos de nuestro medio ambiente."
+
+    utter_answer_ccc_recycling_spa:
+      - text: "La fabricación de artículos nuevos emite una gran cantidad de gases de efecto invernadero por año. El reciclaje es una forma rentable y ecológica de eliminar los residuos, y no emite gases de efecto invernadero en el medio ambiente."
+
+    utter_answer_ccc_lifestyle_transportation_spa:
+      - text: "Con respecto al transporte, es importante viajar de manera más sostenible, reducir los desplazamientos aéreos personales y profesionales, utilizar alternativas de coches ecológicos y, si es posible, considerar ir en bicicleta al trabajo todos los días. Ventajas adicionales: ¡ahorrarás dinero y te mantendrás en forma!"
+
+    utter_answer_ccc_lifestyle_diet_spa:
+      - text: "Nuestras elecciones de alimentos y dieta tienen un impacto significativo en nuestra huella de carbono. Existen grandes diferencias en las emisiones de gases de efecto invernadero de los distintos alimentos: producir 1 kg de carne vacuna emite 60 kg de gases de efecto invernadero (CO2 equivalente), mientras que 1 kg de guisantes emite solo 1 kg de gases de efecto invernadero."
+
+    utter_answer_ccc_lifestyle_local_diet_spa:
+      - text: "Respecto a nuestras opciones de alimentación... ¡comprar alimentos locales y de temporada también puede causar un impacto positivo! Además, los alimentos de origen local suelen ser más frescos y sabrosos, ya que no es necesario transportarlos por largas distancias para que lleguen a nuestras tiendas... También podemos considerar comer carne con menos frecuencia."
+
+    utter_answer_ccc_advocacy_intro_spa:
+      - text: "La incidencia es un proceso fundamental para influir en personas o instituciones con el objetivo de conseguir las políticas, las prácticas y los cambios sociales y políticos deseados. La incidencia puede adoptar muchas formas diferentes. Para ser eficaces en nuestra labor de incidencia y marcar una verdadera diferencia en nuestro futuro, debemos comprender las barreras al cambio y desarrollar estrategias para superarlas."
+
+    utter_answer_ccc_advocacy_toolkit_spa:
+      - text: "¡Maravilloso! ¡Gracias por tu interés en la incidencia! Encontrarás recursos con información útil sobre la incidencia aquí. Advertencia: ¡Documento largo! Sugiero leerlo en una pantalla grande... Con este conjunto de recursos podrás obtener más información sobre cómo planificar la incidencia para el cambio climático, cómo involucrar al público y a los medios de comunicación, influir en los líderes, brindar apoyo a las voces locales y mucho más. https://www.southernvoices.net/en/documents/key-documents/43-advocacy-toolkits/file.html"
+
+    utter_answer_ccc_group_planting_trees_spa:
+      - text: "Plantar árboles ayuda a mitigar el cambio climático, así como a adaptarse a él, y conlleva una variedad de beneficios económicos y para la salud. Los árboles en crecimiento absorben dióxido de carbono (CO2), uno de los principales gases de efecto invernadero que causan el calentamiento global, y lo mantienen almacenado mientras permanecen vivos. Para obtener una lista de verificación sobre la plantación de árboles, haz clic en link: https://www.climatecentre.org/downloads/files/Small%20Simple%20Actions_FINAL_Climate%20Change-IFRC2016.pdf#page=9"
+
+    utter_answer_ccc_shared_gardens_spa:
+      - text: "Los huertos comunitarios ofrecen beneficios medioambientales, sociales y económicos, y promueven el aprendizaje, aumentan el acceso a frutas y verduras cultivadas localmente, reducen los residuos, aumentan la participación ciudadana y los lazos comunitarios, y mejoran la calidad del aire y del suelo, así como la infiltración de agua. Las personas y las comunidades pueden participar en actividades sencillas de jardinería urbana."
+
+    utter_answer_ccc_games_spa:
+      - text: "Los juegos son una forma divertida, pero seria, de aprender y planificar. Los juegos pueden ayudar a intercambiar ideas para crear una lista y priorizar las acciones que se realizarán. Puedes obtener más información aqui:  https://www.climatecentre.org/resources-games/games"
+
+    utter_answer_ccc_prevention_plans_spa:
+      - text: "Los servicios de emergencia no siempre pueden responder en todas partes e inmediatamente durante emergencias a gran escala. Lo más probable es que sea un miembro de la comunidad o un familiar quien brinde la asistencia inicial durante una emergencia. Las comunidades que están mejor conectadas, que conocen sus riesgos y vulnerabilidades, y que están organizadas, se enfrentan mejor a los impactos de los desastres. En la medida de lo posible, podrías trabajar en un plan para casos de desastre para la familia y la comunidad. Puedes obtener más información aquí: https://www.redcross.org.au/getmedia/2d973b71-d7d5-4d39-b478-233d5cbf15c1/RediCommunitiesGuide.pdf.aspx"
+
+    utter_answer_ccc_start_cc_education_spa:
+      - text: "¡Excelente! Hay mucha confusión e información falsa sobre esto, así que me alegra ayudar... Por ejemplo, puedo responder preguntas sobre el efecto invernadero, cómo han cambiado las emisiones de gases con el tiempo o cómo se registra el cambio climático a lo largo del tiempo."
+
+    utter_anything_else_ara:
+      - text: "هل هنالك أي شيء آخر يمكنني أن أجيب عليه؟"
+
+    utter_ask_anything_else_ara:
+      - text: "هل هنالك أي شيء آخر يمكنني أن أجيب عليه؟"
+      - text: "ماذا تود أن تسأل أيضاً؟"
+
+    utter_ask_feedback_reason_ara:
+      - text: "هل يمكنك إخبارنا بما تعتقد أنه يمكننا تحسينه؟"
+
+    utter_ask_first_time_ara:
+      - text: "هل هذه هي المرة الأولى التي تحدثنا فيها؟"
+
+    utter_ask_given_name_ara:
+      - text: "ماذا تريد مني أنا أدعوك"
+      - text: "ماذا يدعوك أصدقاؤك؟"
+
+    utter_collect_fallback_ara:
+      - text: "يبدو أنني أواجه بعض الصعوبات. عذرًا. لنبدأ من جديد. ما الذي يمكنني مساعدتك فيه اليوم؟"
+      - text: "آسف. لم أفهم ذلك تمامًا. رجاءً اعد ماقلته."
+
+    utter_get_back_on_topic_ara:
+      - text: "هل هنالك أي أسئلة حول كوفيد-19 أو أي أسئلة عامة حول الصحة يمكنني مساعدتك بها؟"
+
+    utter_get_informed_consent_ara:
+      - text: "لا تقلق، لا يمكن لأحد التعرف عليك من أسئلتك أو تعليقاتك ولكننا نريدك أن تعرف أننا سنجمع ونحلل ما تكتبه. سنقوم بتحليل المحادثات لتحسين الخدمة ولكنها ستبقى مجهولة الهوية تمامًا. من خلال استمرارك بهذه المحادثة، نفترض أنك توافق."
+
+    utter_goodbye_ara:
+      - text: "مرحباً بك! شكراً لزيارتك. تفضل بالعودة في أي وقت ولا تتردد في نشر الأخبار حول هذه الخدمة بين عائلتك وأصدقائك! "
+
+    utter_greet_with_name_ara:
+      - text: "مرحبًا سيد {given_name}!"
+
+    utter_introduce_survey_ara:
+      - text: "أتحدث الفرنسية والسواحيلية، لكنني أتعلم التحدث أكثر.\n\n أود أن أطرح عليك بعض الأسئلة حول اللغات التي تعرفها..."
+
+    utter_out_of_scope_ara:
+      - text: "عذرًا، لا أعرف كيفية الرد على ذلك بعد."
+
+    utter_reply_goodbye_ara:
+      - text: "وداعًا. يُرجى التواصل معي مرة أخرى إذا كانت لديك أي أسئلة."
+
+    utter_reply_greeting_ara:
+      - text: "مرحبًا! شكرًا لزيارتكم! أتمنى أن تكون مستمتعًا بقمتنا :-) لم أفعل هذا لفترة طويلة ، لذا يرجى التحلي بالصبر معي! "
+
+    utter_reply_thanks_ara:
+      - text: "شكرًا لك أيضًا!"
+
+    utter_reply_where_do_you_live_ara:
+      - text: "أنا كمبيوتر أعيش بين الهواتف."
+      - text: "أنا كمبيوتر أعيش بين السحابات."
+
+    utter_set_expectations_ara:
+      - text: "مرحبًا! شكرًا لزيارتك! آمل أن تكون مستمتعًا بقمتنا :-) أنا هنا للمساعدة في الأسئلة المتعلقة بتغير المناخ. يسعدني أيضًا تقديم بعض الاقتراحات لمبادرات بسيطة يمكننا اتخاذها بشكل فردي وداخل مجتمعاتنا لزيادة الوعي والبدء في إحداث تأثير إيجابي. ليس لدي الكثير من الخبرة في هذه العملية، لذا يرجى التحلي بالصبر معي!"
+
+    utter_thanks_for_your_feedback_ara:
+      - text: "شكرًا، هذا مثير للاهتمام!"
+      - text: "أقدر ملاحظاتك"
+
+    utter_welcome_back_ara:
+      - text: "مرحبًا بعودتك!"
+      - text: "سررت بعودتك!"
+
+    utter_reply_whats_your_name_ara:
+      - text: "ليس لدي اسم بعد، أنا مجرد روبوت."
+
+    utter_reply_to_request_for_french_ara:
+      - text: "أنا آسف، يبدو أنني أسأت فهم السؤال بشكل كامل. هل يمكنك المحاولة مرة أخرى؟"
+
+    utter_reply_to_wrong_answer_ara:
+      - text: "أنا آسف، سنقوم بوضع ملاحظة وتغيير ذلك في أقرب وقت ممكن."
+
+    utter_unknown_myths_ara:
+      - text: "سأحاول معرفة ذلك"
+
+    utter_reply_about_privacy_ara:
+      - text: "نحن لا نجمع أي معلومات شخصية"
+
+    utter_games_transition_ara:
+      - text: "يسعدني سؤالك! لا يعرف الجميع أن..."
+
+    utter_shopping_intro_ara:
+      - text: "رائع! أعتقد أن عادات التسوق يجب أن تسير جنبًا إلى جنب مع عادات إعادة التدوير!"
+
+    utter_transition_question_ara:
+      - text: "هل ترغب في معرفة المزيد عن هذا؟"
+      - text: "مستعد لتعرف المزيد؟"
+
+    utter_start_cc_education_ara:
+      - text: "رائع! هناك الكثير من الالتباس والمعلومات المضللة، لذلك يسعدني المساعدة في هذا... على سبيل المثال، يمكنني الإجابة على الأسئلة المتعلقة بتأثير الاحتباس الحراري، أو كيف تغيرت انبعاثات الغازات بمرور الوقت، أو كيفية تتبع تغير المناخ بمرور الوقت. كيف يمكنني المساعدة إذاً؟"
+
+    utter_how_can_help_ara:
+      - text: "لذا اسألني أي شيء!"
+
+    utter_my_fallback_ara:
+      - text: "أجد صعوبة في فهم سؤالك ..."
+
+    utter_shopping_plastic_bags_ara:
+      - text: "في جميع أنحاء العالم، يتم استهلاك حوالي 500 مليار كيس بلاستيكي سنوياً. يتطلب إنتاجها 60 مليون برميل من النفط ويستغرق تحللها ما يصل إلى 1000 عام. أحضر كيسك الخاص عندما تتسوق للمساعدة في التخلص من البلاستيك من بيئتنا."
+
+    utter_who_is_twb_ara:
+      - text: "نحن منظمة 'مترجمون بلا حدود' (Translators without Borders) غير الربحية التي تعمل من أجل عالم لا تتسبب فيه حواجز اللغة بإعاقة المعرفة."
+
+    utter_ccc_what_is_cc_ara:
+      - text: "يعني تغير المناخ الارتفاع المستمر في متوسط درجة حرارة نظام مناخ الأرض وعواقب هذا الارتفاع، وتشمل عواقبه تغيرات في أنماط هطول الأمطار، وعواصف بشدة أكبر، وتكثيف موجات الحرارة، وارتفاع مستوى سطح البحر. في حين كانت هناك فترات سابقة من التغير المناخي، إلا أن معدلها وحجمها لم يسبق له مثيل منذ منتصف القرن العشرين."
+
+    utter_ask_location_ara:
+      - text: "أين أنت؟"
+        buttons:
+        - title: "أوروبا"
+          payload: "europe"
+        - title: "أوقيانوسيا"
+          payload: "oceania"
+        - title: "أفريقيا"
+          payload: "africa"
+        - title: "أمريكا الشمالية"
+          payload: "nth_america"
+        - title: "امريكا الجنوبية"
+          payload: "sth_america"
+
+    utter_ask_myth_source_ara:
+      - text: "إذا كنت لا تمانع أن أسأل - أين سمعت ذلك؟"
+        buttons:
+        - title: "اصدقاء العائلة"
+          payload: "f_and_f"
+        - title: "مذياع"
+          payload: "radio"
+        - title: "ال WhatsApp"
+          payload: "whatsapp"
+        - title: "تويتر"
+          payload: "twitter"
+
+    utter_ask_preferred_channel_ara:
+      - text: "كيف تفضل تلقي المعلومات؟"
+        buttons:
+        - title: "شخصيا"
+          payload: "in_person"
+        - title: "مذياع"
+          payload: "radio"
+        - title: "منشور"
+          payload: "leaflet"
+        - title: "ال WhatsApp"
+          payload: "WhatsApp"
+        - title: "رسالة قصيرة"
+          payload: "SMS"
+        - title: "آخر"
+          payload: "Other"
+
+    utter_ask_feedback_ara:
+      - text: "هل فعلنا حسنا؟"
+        buttons:
+        - title: "نعم"
+          payload: "/affirm_ara"
+        - title: "لا"
+          payload: "/deny_ara"
+
+    utter_ask_cc_action_topics_ara:
+      - text: "لنبدأ ... ما الذي يبدو أكثر إثارة للاهتمام بالنسبة لك؟"
+        buttons:
+        - title: "أسلوب الحياة"
+          payload: "lifestyle_ara"
+        - title: "تواصل اجتماعي"
+          payload: "community_ara"
+        - title: "التعليم"
+          payload: "education_ara"
+
+    utter_ask_cc_comm_subtopics_ara:
+      - text: "رائع ، نحن بحاجة إلى أشخاص يلهمون مجتمعاتنا! ما نوع المبادرات التي تبدو أكثر ملاءمة لمجتمعك؟"
+        buttons:
+        - title: "الوقاية"
+          payload: "prevention_ara"
+        - title: "المناصرة"
+          payload: "advocacy_ara"
+        - title: "عمل جماعي"
+          payload: "group_activities_ara"
+
+    utter_ask_cc_group_action_ara:
+      - text: "هناك العديد من الأنشطة التي يمكنك تنظيمها داخل مجتمعك والتي يمكن أن يكون لها تأثير إيجابي وزيادة الوعي بشأن ظاهرة الاحتباس الحراري. بعض الأشياء المفضلة لدي هي:"
+        buttons:
+        - title: "زراعة الأشجار"
+          payload: "planting_trees_ara"
+        - title: "حدائق مشتركة"
+          payload: "shared_gardens_ara"
+        - title: "ألعاب"
+          payload: "games_ara"
+
+    utter_ask_cc_life_subtopics_ara:
+      - text: "لطيف! حتى التغييرات الصغيرة في نمط الحياة يمكن أن تساعد في وقف الاحتباس الحراري. في أي جانب من جوانب أسلوب حياتك ترغب في إحداث بعض التأثير الإيجابي؟"
+        buttons:
+        - title: "- طعام"
+          payload: "diet_ara"
+        - title: "- رحلة قصيرة"
+          payload: "travel_ara"
+        - title: "- المشتريات"
+          payload: "shopping_ara"
+
+    utter_answer_ccc_too_late_ara:
+      - text: "بدأت التغيرات المناخية الرئيسية تحدث بالفعل. حتى لو توقفنا عن التسبب بانبعاث غازات بيت الدفيئة اليوم ، سيستمر حدوث الاحترار العالمي لعدة عقود أخرى على الأقل، وذلك لأن الكوكب يحتاج بعض الوقت للاستجابة، ولأن ثاني أكسيد الكربون يبقى في الغلاف الجوي لمئات السنين. لكن من الممكن أن الأوان لم يفت بعد لتجنب بعض آثار تغير المناخ أو الحد منها من خلال التخفيف والتكييف."
+
+    utter_answer_ccc_what_is_greenhouse_effect_ara:
+      - text: "يعد تأثير بيت الدفيئة الطريقة التي تحتبس فيها الحرارة بالقرب من سطح الأرض بفعل 'غازات بيت الدفيئة' والتي تشمل في ذلك ثاني أكسيد الكربون والميثان وأكاسيد النيتروز. تنشأ غازات بيت الدفيئة بشكل طبيعي، وهي جزء من تكوين الغلاف الجوي. لكن خلال القرن الماضي أو ما قاربه، كان البشر يتدخلون في توازن الطاقة للكوكب، وذلك بشكل رئيسي من خلال حرق الوقود الأحفوري الذي يُطلق ثاني أكسيد الكربون الإضافي في الهواء. لقد كان مستوى ثاني أكسيد الكربون في الغلاف الجوي للأرض يرتفع باستمرار منذ عقود ويتسبب بحبس حرارة إضافية بالقرب من سطح الأرض."
+
+    utter_answer_ccc_weather_vs_climate_ara:
+      - text: "تعني كلمة 'الطقس' وجود المزيد من التغيرات المحلية في المناخ الذي نراه من حولنا، وذلك على فترات زمنية قصيرة تتراوح من دقائق إلى ساعات إلى أيام إلى أسابيع. يشير مصطلح 'المناخ' إلى متوسطات أطول أجلاً (قد تكون إقليمية أو عالمية)، ويمكن اعتبارها متوسط ​ ​الطقس على مدى عدة مواسم أو سنوات أو عقود."
+
+    utter_answer_ccc_what_can_ifrc_do_ara:
+      - text: "تقدم الجمعيات الوطنية باعتبارها وكالات مساعدة معترف به من حكوماتها الدعم الرئيسي للسلطات العامة في العديد من المجالات، وقد أدت أدوارًا مهمة في ميادين صنع القرار الوطنية بشأن تغير المناخ والمخاطر ذات الصلة، وتعد البنية القائمة على المجتمع المحلي للجمعيات الوطنية هي أيضًا من عوامل التميز الحيوية لمعالجة تغير المناخ والحد من المخاطر على مستوى المجتمع المحلي."
+
+    utter_answer_ccc_is_tree_planting_good_ara:
+      - text: "يُغطي برنامج المانغروف التابع للصليب الأحمر في فيتنام والذي كان يعمل لما يقرب من عقدين، حوالي 9000 هكتار في 10 مقاطعات، وحوالي 7 في المائة من جميع أشجار المانغروف في فيتنام، ويساعد على حماية حوالي 350.000 شخص من العواصف البحرية. تساهم أشجار المانغروف أيضًا في التخفيف لأنها ستعزل حوالي 16 مليون طن من ثاني أكسيد الكربون بحلول عام 2025."
+
+    utter_answer_ccc_explain_ccc_negotiations_ara:
+      - text: "أُنشئت “الهيئة بين الحكومية الدولية المعنية بتغير المناخ” في عام 1988 وتصدر تقارير منتظمة لتوجيه حوار السياسة العالمية بشأن تغير المناخ. أُنشئت “اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ” (UNCFCC) في عام 1992 وهي توفر إطار الاستجابة العالمية لمشكلة تغير المناخ. تُشارك بلدان فردية في “لجنة الأمم المتحدة الإطارية” بشأن تغير المناخ باعتبارها 'أطرافاً' في عملية مكافحة تغير المناخ. يعتبر “المؤتمر السنوي للأطراف” هو هيئة صنع القرار “لاتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ”."
+
+    utter_answer_ccc_tracking_and_measurement_ara:
+      - text: "يتم تتبع تغير المناخ من خلال التنبؤات الموسمية والسنوية، والتوقعات المناخية لاستجابة النظام المناخي لإجراءات مثل انبعاثات غازات الدفيئة، والنمذجة المناخية لمحاكاة التفاعلات المعقدة داخل النظام المناخي."
+
+    utter_answer_ccc_do_scientists_agree_ara:
+      - text: "نعم. يوافق 97٪ من علماء المناخ الناشطين بنشر الأبحاث على أن مناخ الأرض يزداد حرارة. لا يوجد بديل موثوق به لذلك الذي قدمته الغالبية العظمى من الخبراء في المجالات العديدة التي تدرس الكوكب وبيولوجيته وسلوكه الجيولوجي ومتغيراته وتنوعاته."
+
+    utter_answer_ccc_what_is_carbon_footprint_ara:
+      - text: "تُعد البصمة الكربونية هي إجمالي انبعاثات غازات بيت الدفيئة الناتجة عن فرد أو حدث أو منظمة أو خدمة أو منتج، ويتم تمثيلها بمكافئ ثاني أكسيد الكربون، ويمكن أن تنبعث غازات الدفيئة من خلال حرق الوقود الأحفوري، وإزالة الغطاء الأخضر من الأراضي وإنتاج واستهلاك المواد الغذائية والسلع المصنعة والمواد والخشب والطرق والمباني والنقل وغيرها من الخدمات. يعد حساب بصمة الكربون التي تتسبب بها أنت صعبًا، ولكن يمكن للآلات الحاسبة عبر الإنترنت أن توفر تقديرًا تقريبيًا لبصمة الكربون."
+
+    utter_answer_ccc_greenest_countries_ara:
+      - text: "وفقًا لمؤشر الأداء البيئي، فإن فنلندا وأيسلندا والسويد والدنمارك وسلوفينيا هي أعلى 5 دول صديقة للبيئة على وجه الأرض."
+
+    utter_answer_ccc_costs_of_doing_nothing_ara:
+      - text: "بحلول عام 2050، قد يحتاج 200 مليون شخص كل عام إلى مساعدات إنسانية دولية نتيجة لمجموعة قاسية من الكوارث ذات الصلة بالمناخ والتأثير الاجتماعي والاقتصادي لتغير المناخ. يعني هذا ما يقرب ضعف تقديرات الأشخاص الذين يحتاجون اليوم إلى المساعدة البالغ عددهم 108 مليون شخص من النظام الإنساني الدولي بسبب الفيضانات والعواصف والجفاف وحرائق الغابات. حتى بحلول 2030، وهو ما يعني على بُعد عقد واحد من الزمن، يمكن أن يزيد هذا العدد بنسبة 50 في المائة تقريبًا."
+
+    utter_answer_ccc_how_stop_cc_ara:
+      - text: "على الصعيد العالمي، نحن بحاجة إلى خفض انبعاثات الاحتباس الحراري للتخفيف من العوامل التي يسببها الإنسان لتغير المناخ. في حين لا يمكننا منع حدوث العواصف والأعاصير وموجات الحرارة وغيرها من الأخطار المرتبطة بالمناخ والطقس، يمكننا في هذا الحين أن نقوم بشيء بشأن التأثيرات التي تحدثها. هناك تدابير يمكن إدخالها لجعل التنمية أكثر شمولاً، ولتقليل مخاطر الكوارث ذات الصلة بالمناخ ولتدبيرها بشكل أفضل. من الأهمية بمكان الاستثمار في التكيف مع المناخ، وبناء المرونة في المجتمعات والدول والمناطق المعرضة للخطر."
+
+    utter_answer_ccc_how_fast_heating_ara:
+      - text: "ارتفعت درجة حرارة الأرض بمقدار 1-1.5 درجة مئوية تقريبًا منذ عام 1880. نظرًا لتنوع المناخ دائمًا بشكل طبيعي بعد اختلافات الدوران وعوامل أخرى، من المهم فهم سرعة هذه الظاهرة لفهم تأثير العامل البشري. كان متوسط ​معدل تغير درجة الحرارة في أمريكا الشمالية منذ عام 1970 هو 0.3 درجة مئوية لكل عقد منذ ذلك التاريخ. ​هذا أسرع بعشر مرات مما كان عليه عندما خرج الكوكب من فتراته الجليدية."
+
+    utter_answer_ccc_what_are_global_commitments_ara:
+      - text: "الجهد الدولي الرئيسي هو اتفاق باريس بشأن المناخ لعام 2015، وهو جزء من “اتفاقية الأمم المتحدة الإطارية بشأن تغير المناخ” (UNCFCC). يعد أساس اتفاقية باريس هو الهدف العالمي للحفاظ على متوسط ​ ​درجات الحرارة العالمية من الارتفاع بمقدار درجتين مئويتين (مقارنة بدرجات الحرارة قبل الثورة الصناعية) بحلول نهاية القرن. لكن المسألة ليست مجرد درجتي حرارة، فإننا نخاطر بشكل كبير بارتفاع البحار، وبتغيرات في أنماط الطقس، وأزمات الغذاء والمياه، وعالم أكثر عدوانية بشكل عام."
+
+    utter_answer_ccc_my_countries_co2_ara:
+      - text: "تبعث دول العالم كميات مختلفة إلى حد كبير من الغازات المتسببة باحتباس الحرارة في الغلاف الجوي. يمكن الاطلاع على تقديرات الوكالة الدولية للطاقة لانبعاثات ثاني أكسيد الكربون (CO2) لكل بلد على https://www.ucsusa.org/resources/each-countrys-share-co2-emissions."
+
+    utter_answer_ccc_how_much_my_co2_ara:
+      - text: "هناك مجموعة من الآلات الحاسبة للبصمة الكربونية على الإنترنت وهي مجانية. هذه الأمور مهمة لأن آثار الكربون تختلف باختلاف البلد اعتمادًا على انبعاثات غازات الدفيئة المطلوبة لإنتاج السلع والخدمات في ذلك البلد. بالإضافة إلى النظر إلى البصمة الحالية، من الجيد أيضًا أن ننظر إلى ما يجب أن تكون عليه أهدافنا. توضح هذه المقالة من جامعة الأمم المتحدة 'نمط حياة العشر أطنان' والتي عرفها مايك بيرنرز لي (https://ourworld.unu.edu/en/uncovering-the-carbon-footprint-of-everything)."
+
+    utter_answer_ccc_affect_of_covid_ara:
+      - text: "ووفقًا لمذكرة فكرية من زملاء الاتحاد الدولي لجمعيات الصليب الأحمر والهلال الأحمر، فإنه 'تم الالتزام بما يقرب 12 تريليون دولار أمريكي للتعافي من كوفيد-19 من قبل أكبر 50 اقتصادًا في العالم، ولكن تم الالتزام بأقل من 0.2 في المائة من هذا المبلغ بها لتحفيز العناصر منخفضة الكربون والصديقة للبيئة في اقتصاداتها'، لكن هناك خطوات يمكن أن نتخذها للتحفيز على أن التعافي من كوفيد يؤدي إلى 'مجتمع أكثر صداقة للبيئة وأكثر قدرة على الصمود لا يترك أي شخص وراءه'."
+
+    utter_answer_ccc_how_can_we_promote_ara:
+      - text: "هنالك عدد متزايد من الجمعيات الوطنية للصليب الأحمر والهلال الأحمر التي تدرك الحاجة إلى دمج تغير المناخ في عملها، ولكن ليس من الواضح دائمًا من أين يجب البدء. يوفر دليل مناخ الصليب الأحمر والهلال الأحمر دليلًا إرشاديًا https://www.climatecentre.org/downloads/files/RCRC_climateguide.pdf#page=16:"
+
+    utter_answer_ccc_climate_crisis_impact_health_ara:
+      - text: "مع تفاقم تغير المناخ، نواجه المزيد من الوفيات والمضاعفات الصحية بسبب موجات الحرارة والكوارث الطبيعية والظواهر الجوية القاسية مثل الفيضانات والعواصف الشديدة، وانتشار الأمراض التي تنقلها الحشرات التي تهدد الحياة مثل الملاريا إلى أماكن جديدة، وظهور أمراض معدية. سيؤدي الانخفاض في غلات المحاصيل والوصول إلى المياه العذبة إلى تزايد انعدام الأمن الغذائي ونقص إمدادات المياه في بعض المناطق، وسوف يتأثر السكان الضعفاء والمحرومون ومنخفضة الدخل والأطفال، ولا سيما في البلدان النامية والمناطق ذات البنية التحتية الضعيفة، بشكل غير متناسب."
+
+    utter_answer_ccc_climate_crisis_impact_migration_ara:
+      - text: "من المتوقع أن يؤدي تغير المناخ إلى زيادة نزوح الناس، حيث يكون المهاجرون واللاجئون أكثر عرضة لظواهر الطقس الشديدة. تعتبر درجات الحرارة الشديدة، والتهطال الشديد، وعرام العواصف، وارتفاع مستوى سطح البحر والفيضانات، والأعاصير المدمرة من العوامل الدافعة للهجرة المرتبطة بالمناخ.على سبيل المثال، نظرًا لمسارنا الحالي لتغير المناخ، من المتوقع أن تؤدي ندرة المياه إلى نزوح ما بين 24 مليون و 700 مليون شخص في بعض المناطق القاحلة وشبه القاحلة بحلول عام 2030."
+
+    utter_answer_ccc_what_is_forecast_based_financing_ara:
+      - text: "يستخدم التمويل المستند إلى التنبؤ معلومات التنبؤ المتعمقة وتحليل المخاطر لتمكين الوصول إلى التمويل الإنساني من أجل العمل المبكر. في هذا النهج، يحدد أصحاب المصلحة مسبقًا كيفية تخصيص الموارد المالية ويضعون عتبة تنبؤ محددة ستؤدي إلى الإفراج عن تلك الأموال. الهدف من التمويل المستند إلى التنبؤ هو توقع الكوارث، ومنع تأثيرها، إن أمكن، وتقليل المعاناة البشرية والخسائر.   لمزيد من المعلومات، شاهد هذا الفيديو (https://youtu.b (https://youtu.be/UjhFfbQpPf8 أو زيارة www.forecast-based-financing.org"
+
+    utter_answer_ccc_climate_crisis_vs_pandemic_ara:
+      - text: "العمل بشأن تغير المناخ ضروري لمنع الجوائح في المستقبل. على سبيل المثال، يمكن من خلال منع إزالة الغابات وهو أحد الأسباب الجذرية لتغير المناخ، أن يساعد في معالجة فقدان التنوع البيولوجي وهجرة الحيوانات البطيئة التي تزيد من مخاطر انتشار الأمراض المعدية بين البشر. لقد استخدمت الأمم المتحدة استجابة كوفيد-19 والتعافي منه كفرصة كبرى لإعادة البناء بطرق تعزز الاستدامة والإنصاف والقدرة على التكيف مع تغير المناخ.   اقرأ المزيد عن بيان الأمم المتحدة بشأن تغير المناخ وكوفيد-19 هنا:https://www.un.org/en/un-coronavirus-communications-team/un-urges-countries-%E2%80%98build-back-better%E2%80%99 "
+
+    utter_answer_ccc_effect_of_climate_crisis_on_food_water_security_ara:
+      - text: "لقد قللت عوامل مثل الاحترار وتغير أنماط هطول الأمطار وزيادة تواتر الظواهر المتطرفة بالفعل من الأمن الغذائي في مناطق الأراضي الجافة، لا سيما في أفريقيا، والمناطق الجبلية العالية في آسيا وأمريكا الجنوبية. وبالمثل، من المتوقع أن تشهد المناطق النامية الاستوائية، حيث يمثل الأمن الغذائي مشكلة بالفعل، انخفاضًا في غلة المحاصيل.بالإضافة إلى ذلك، يعيش أكثر من ملياري شخص حاليًا في بلدان تعاني من صعوبات مائية مرتفعة، ومن المرجح أن يزداد سوء ذلك مع اشتداد تغير المناخ."
+
+    utter_answer_ccc_effect_of_climate_crisis_on_livelihoods_ara:
+      - text: "عندما يتفاقم تغير المناخ مع الصدمات والضغوط الثقافية والسياسية والاجتماعية والاقتصادية الأخرى، فإنه يدفع الناس إلى تغيير أنماط الحياة أو الهجرة أو تبني طرق جديدة تمامًا لكسب العيش. تهدد العوامل مثل الحرارة الشديدة وتدهور التربة وتغير أنماط هطول الأمطار الزراعة والثروة الحيوانية. وبالمثل، فإن ارتفاع مستوى سطح البحر العالمي، والاحترار وتحمض المحيطات والتغيرات في النظم البيئية للأنهار والبحيرات سوف تؤثر بشدة على مهن الصيد والسياحة."
+
+    utter_answer_ccc_does_climate_crisis_cost_lives_ara:
+      - text: "وفقًا لبيانات منظمة الصحة العالمية، يتسبب تغير المناخ بالفعل في حدوث عشرات الآلاف من الوفيات كل عام بسبب تغير أنماط المرض، والظواهر الجوية الشديدة مثل موجات الحرارة والفيضانات، وتدهور إمدادات المياه والصرف الصحي، والتأثيرات على الزراعة. بين عامي 2030 و 2050، من المتوقع أن يتسبب تغير المناخ في حدوث 250.000 حالة وفاة سنوية إضافية بسبب سوء التغذية والملاريا والإسهال والإجهاد الحراري. يتقاطع تغير المناخ مع عدم المساواة الاجتماعية، لذلك تتأثر الفئات المحرومة بشكل غير متناسب بهذه الآثار الضارة."
+
+    utter_answer_ccc_evidence_of_climate_crisis_ara:
+      - text: "وفقًا للهيئة الحكومية الدولية المعنية بتغير المناخ، فإن الدليل العلمي على ارتفاع درجة حرارة نظام مناخ الأرض لا لبس فيه، وتشمل الاتجاهات المرصودة ارتفاع درجة حرارة سطح الأرض، وارتفاع درجة حرارة الغلاف الجوي والمحيطات، وارتفاع مستوى سطح البحر، وتراجع الجليد البحري والغطاء الثلجي في القطب الشمالي. تُظهر البيانات التي تم جمعها من التكنولوجيا مثل الأقمار الصناعية والأدلة القديمة أو المناخ القديم الموجودة في حلقات الأشجار ورواسب المحيطات والشعاب المرجانية وطبقات الصخور الرسوبية أن الاحترار الحالي يحدث تقريبًا أسرع بعشر مرات من متوسط معدل تعافي عودة الحرارة بعد العصر الجليدي."
+
+    utter_answer_ccc_does_weather_reflect_climate_crisis_ara:
+      - text: "يشير مصطلح 'الطقس' إلى التغيرات المحلية وقصيرة المدى في المناخ التي نراها من حولنا، في حين أن المناخ يعني متوسط أنماط الطقس على المدى الطويل على الأرض. وبالتالي، فإن الظواهر الجوية الإقليمية على المدى القصير مثل الموجات الباردة أو الطقس الشتوي لا تعني أن تغير المناخ واحترار الأرض لا يحدثان. إن الزيادة الكلية طويلة الأجل في الطقس الحار وموجات الحرارة وشدة أحداث هطول الأمطار، والتي سنشهدها كطقس يومي بمرور الوقت، هي انعكاس لمناخ الأرض المتغير."
+
+    utter_answer_ccc_does_climate_change_exist_alongside_coldwaves_ara:
+      - text: "يشير تغير المناخ إلى تغير طويل الأجل في متوسط أنماط الطقس. حيث أن ارتفاع درجة الحرارة وتغير الطقس ليسا نفسهما في جميع أنحاء العالم أو بمرور الوقت. وبالتالي، فإن ظاهرة الطقس قصيرة المدى مثل موجة البرد التي تحدث في منطقة معينة لا تعكس مسار مناخ الأرض ككل. على الرغم من أنه من المتوقع أن تصبح موجات البرد أقل شدة مع ارتفاع متوسط درجات الحرارة العالمية، يمكن أن تحدث فترات طقس شديدة البرودة، خاصة خلال فصل الشتاء."
+
+    utter_answer_ccc_is_climate_change_natural_ara:
+      - text: "خلصت الهيئة الحكومية الدولية المعنية بتغير المناخ إلى أن هناك احتمالًا يزيد على نسبة 95٪ يقول بأن الأنشطة البشرية على مدى الخمسين عامًا الماضية هي ما أدى إلى تدفئة كوكبنا. تُستخدم النماذج المناخية لاستنتاج أن العمليات الطبيعية (مثل تغيرات الإشعاع الشمسي) وحدها ليست مسؤولة عن اتجاه درجات الحرارة المرصودة خلال القرن الماضي. يعزو العلماء الارتفاع في درجات الحرارة العالمية بشكل أساسي إلى الاحتراق الصناعي للوقود الأحفوري الذي ينتج غازات دفيئة إضافية مثل ثاني أكسيد الكربون والميثان وأكسيد النيتروز في الغلاف الجوي."
+
+    utter_answer_ccc_problem_with_warm_weather_ara:
+      - text: "من المرجح جدًا أن يزداد تحمض المحيطات واحترارها، وأن يرتفع مستوى سطح البحر، وأن تتدهور التربة، وأن يحصل الجفاف، والفيضانات، وموجات الحرارة، وظواهر هطول الأمطار الشديدة مع ارتفاع درجات الحرارة العالمية. لذلك وفي حين أن بعض الناس قد يعجبهم سماع أن الطقس سيكون أكثر دفئَا، فإن زيادة سخونة نظام مناخ الأرض والزيادة الشاملة طويلة الأجل في درجات الحرارة القصوى ستؤدي إلى تعطيل النظم البيئية بشدة، وتهديد أمننا الغذائي والمائي، وستتسبب بالضرر لصحة الناس وسبل عيشهم حول العالم."
+
+    utter_answer_ccc_impact_of_Earth_warming_ara:
+      - text: "من المرجح جدًا أن يزداد تحمض المحيطات والاحترار المستمر، وأن يرتفع مستوى سطح البحر وأن يقع الجفاف وتحدث الفيضانات وتصل موجات الحرارة، وظواهر هطول الأمطار الشديدة مع ارتفاع متوسط درجات الحرارة العالمية. ونتيجة لذلك، سوف تتعطل النظم البيئية بشدة وسيواجه السكان مجموعة واسعة من المخاطر مثل انعدام الأمن الغذائي والمائي، وفقدان الممتلكات، وزيادة المضاعفات الصحية. تعتِبر الغالبية العظمى من العلماء أن ارتفاع درجتين مئويتين هو نقطة التحول للتأثيرات الكارثية التي لا رجعة فيها، ولذلك نحن بحاجة إلى العمل على الفور للحد من انبعاثات غازات الاحتباس الحراري العالمية وتجنب تسريع ارتفاع درجة حرارة الأرض."
+
+    utter_answer_ccc_individual_choices_matter_ara:
+      - text: "ساهمت الخيارات الفردية في عمليات الاستهلاك الكبيرة التي تتسبب بتغير المناخ الناتج عن الوقود. بالتالي، فإن التغييرات الصغيرة مثل السفر بطرق تحقق استدامة أكبر أو توفير الطاقة أو تناول كميات أقل من اللحوم يمكن أن تحدث فرقًا كبيرًا عندما نعمل جميعًا معًا لإبطاء تغير المناخ.   حددت حملة لنتصرف الآن من الأمم المتحدة عشر إجراءات رئيسية يمكن اتخاذها في الحياة اليومية:https://www.un.org/en/actnow/index.shtml"
+
+    utter_answer_ccc_plastic_bags_ara:
+      - text: "لسان الإجراء حول العالم، يتم استهلاك حوالي 500 مليار كيس بلاستيكي سنويًا. يتطلب إنتاجها 60 مليون برميل من النفط ويستغرق تحللها ما يصل إلى 1000 عام. أحضر حقيبتك الخاصة عندما تتسوق لتتمكن من المساعدة على في التخلص من البلاستيك من بيئتنا."
+
+    utter_answer_ccc_recycling_ara:
+      - text: "ينتج عن تصنيع عناصر جديدة كمية كبيرة من غازات الدفيئة سنويًا. تعد إعادة التدوير طريقة فعالة من حيث التكلفة وصديقة للبيئة للتخلص من النفايات لا تنتج عنها غازات الدفيئة في البيئة."
+
+    utter_answer_ccc_lifestyle_transportation_ara:
+      - text: "عندما يتعلق الأمر بالنقل ، من المهم السفر بشكل أكثر استدامة ، وتقليل السفر الجوي الشخصي والمهني ، واستخدام بدائل السيارات الصديقة للبيئة ، وإذا أمكن ، فكر في ركوب الدراجات للعمل كل يوم. مزايا إضافية: ستوفر المال وتحافظ على لياقتك!"
+
+    utter_answer_ccc_lifestyle_diet_ara:
+      - text: "لنظامنا الغذائي وخياراتنا الغذائية تأثير كبير على بصمتنا الكربونية. هناك اختلافات كبيرة للغاية في انبعاثات غازات الدفيئة من الأطعمة المختلفة: يتسبب إنتاج 1 كلغ من اللحم البقري بإنتاج 60 كلغ من غازات الاحتباس الحراري (مكافئ ثاني أكسيد الكربون)، في حين أن 1 كلغ من البازلاء تنتج 1 كلغ فقط من غازات الاحتباس الحراري."
+
+    utter_answer_ccc_lifestyle_local_diet_ara:
+      - text: "عندما يتعلق الأمر بخيارات النظام الغذائي، فإن شراء الأطعمة المحلية والموسمية يمكن أن يكون له تأثير إيجابي أيضًا! تميل الأطعمة التي يتم الحصول عليها محليًا أيضًا إلى أن تكون طازجة ولذيذة لأنها لا تُنقل عبر مسافات طويلة قبل الوصول إلى متاجرنا ... بالإضافة إلى ذلك، يمكننا التفكير في تناول اللحوم بشكل أقل"
+
+    utter_answer_ccc_advocacy_intro_ara:
+      - text: "المناصرة هي عملية أساسية للتأثير على الناس أو المؤسسات لتحقيق السياسة والممارسة والتغييرات الاجتماعية والسياسية المطلوبة. يمكن أن تتخذ المناصرة أشكالًا مختلفة. من أجل أن نكون فعالين في مناصرتنا وإحداث فرق حقيقي في مستقبلنا، نحتاج إلى فهم العوائق التي تحول دون التغيير ووضع استراتيجيات للتغلب عليها."
+
+    utter_answer_ccc_advocacy_toolkit_ara:
+      - text: "ممتاز! شكرًا لك على اهتمامك بالمناصرة! إليك <مجموعة أدوات> توفر معلومات مفيدة. تحذير: مستند طويل! أقترح قراءته على شاشة كبيرة ... من خلال استخدام مجموعة الأدوات هذه، ستتمكن من معرفة المزيد حول كيفية التخطيط للمناصرة لتغير المناخ، وكيفية إشراك الجمهور ووسائل الإعلام، والتأثير على القادة، ودعم الأصوات المحلية وغير ذلك الكثير! رابط لتضمينه في <مجموعة الأدوات>: https://www.southernvoices.net/en/documents/key-documents/43-advocacy-toolkits/file.html"
+
+    utter_answer_ccc_group_planting_trees_ara:
+      - text: "يساعد غرس الأشجار على التخفيف من تغير المناخ والتكيف معه، كما يحقق مجموعة من الفوائد الصحية والاقتصادية. تمتص زراعة الأشجار ثاني أكسيد الكربون (CO2)، وهو أحد الغازات الدفيئة الرئيسية المسببة للاحتباس الحراري ويبقى محتجزًا أثناء بقاء الأشجار حية. للحصول على قائمة تحقق تتعلق بزراعة الأشجار، يرجى استخدام هذا الرابط :https://www.climatecentre.org/downloads/files/Small%20Simple%20Actions_FINAL_Climate%20Change-IFRC2016.pdf#page=9"
+
+    utter_answer_ccc_shared_gardens_ara:
+      - text: "توفر الحدائق المجتمعية فوائد بيئية واجتماعية واقتصادية، وتعزز التعلم، وتزيد من الوصول إلى الفواكه والخضروات المزروعة محليًا، وتقل النفايات، وتزيد المشاركة المدنية والروابط داخل المجتمع، وتحسن جودة الهواء والتربة وتسرّب المياه. يمكن للأفراد والمجتمعات المشاركة في أنشطة البستنة الحضرية البسيطة."
+
+    utter_answer_ccc_games_ara:
+      - text: "تُعد الألعاب طريقة ممتعة ولكنها واقعية للتعلم والتخطيط. يمكن أن تساعدك الألعاب على العصف الذهني لتوليد الأفكار لسرد الإجراءات وتحديد الأولويات. يمكنك معرفة المزيد <هنا> https://www.climatecentre.org/resources-games/games"
+
+    utter_answer_ccc_prevention_plans_ara:
+      - text: "لا تستطيع خدمات الطوارئ دائمًا الاستجابة في كل مكان على الفور أثناء حالات الطوارئ واسعة النطاق. من المرجح أن يكون أحد أفراد مجتمعك أو عائلتك هو الذي سيقدم المساعدة الأولية أثناء حالة الطوارئ. تتعامل المجتمعات التي تكون على اتصال أفضل وتكون منظمة ولديها دراية بمخاطرها ونقاط ضعفها بشكل أفضل مع آثار الكوارث. إلى أقصى حد ممكن، يمكنك العمل على خطة لمواجهة الكوارث على مستوى الأسرة والمجتمع. يمكنك معرفة المزيد حول هذا هنا https://www.redcross.org.au/getmedia/2d973b71-d7d5-4d39-b478-233d5cbf15c1/RediCommunitiesGuide.pdf.aspx"
+
+    utter_answer_ccc_start_cc_education_ara:
+      - text: "ممتاز! هناك الكثير من الالتباس والمعلومات الخاطئة، لذلك أنا سعيد جدًا بالمساعدة... على سبيل المثال، يمكنني الإجابة عن الأسئلة المتعلقة بتأثير الدفيئة، أو كيف تغيرت انبعاثات الغاز بمرور الوقت، أو كيف يتم تتبع تغير المناخ مع مرور الزمن."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

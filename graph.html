@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Rasa Core Visualisation</title>
+    <script src="https://dagrejs.github.io/project/dagre-d3/latest/dagre-d3.min.js"></script>
+    <script src="https://dagrejs.github.io/project/dagre/latest/dagre.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://dagrejs.github.io/project/graphlib-dot/v0.6.3/graphlib-dot.js"></script>
+</head>
+<body>
+<div id="errormsg" style="color: #b00"></div>
+<svg>
+    <style>
+        .node.invisible > rect {
+            display: none;
+        }
+
+        .node.start > rect {
+            fill: #7f7;
+            rx: 30;
+            ry: 18;
+        }
+
+        .node.end > rect {
+            fill: #f77;
+            rx: 30;
+            ry: 18;
+        }
+
+        .node:not(.active) > rect, .node:not(.active) > .label {
+            opacity: 0.4;
+        }
+
+        .edgePath:not(.active) path {
+            opacity: 0.4;
+        }
+
+        .node.ellipsis > rect {
+            fill: #CCC;
+        }
+
+        .node.intent > rect {
+            fill: #7ff;
+        }
+
+        .node.dashed > rect {
+            stroke-dasharray: 5;
+        }
+
+        text {
+            font-weight: 300;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serf, serif;
+            font-size: 14px;
+            color: #1f1d1d;
+        }
+
+        .node rect {
+            stroke: #444;
+            fill: #fff;
+            stroke-width: 1.5px;
+        }
+
+        .edgePath path {
+            stroke: #333;
+            stroke-width: 1.5px;
+        }
+
+        svg {
+            position: fixed;
+            top: 10px;
+            left: 0;
+            height: 100%;
+            width: 100%
+        }
+    </style>
+    <g></g>
+</svg>
+<script>
+
+  function serveGraph() {
+    let oldInputGraphValue;
+
+    const url = 'visualization.dot';
+    const refreshInterval = 500;
+
+    // trigger a refresh by fetching an updated graph
+    setInterval(function () {
+      fetch(url).then(r => r.text()).then(dot => {
+        document.getElementById('errormsg').innerHTML = '';
+        if (oldInputGraphValue === dot) return;
+
+        oldInputGraphValue = dot;
+        drawGraph(dot);
+      }).catch(err => {
+        document.getElementById('errormsg').innerHTML =
+          'Failed to update plot. (' + err.message + ')';
+      });
+    }, refreshInterval);
+  }
+
+  function drawGraph(graph) {
+    let g = graphlibDot.read(graph);
+    // Set margins, if not present
+    if (!g.graph().hasOwnProperty("marginx") &&
+      !g.graph().hasOwnProperty("marginy")) {
+      g.graph().marginx = 20;
+      g.graph().marginy = 20;
+    }
+    g.graph().transition = function (selection) {
+      return selection.transition().duration(300);
+    };
+    // Render the graph into svg g
+    d3.select("svg g").call(render, g);
+  }
+  // Set up zoom support
+  const svg = d3.select("svg"),
+    inner = d3.select("svg g"),
+    zoom = d3.zoom().on("zoom", function () {
+      inner.attr("transform", d3.event.transform);
+    });
+  svg.call(zoom);
+
+  // Create and configure the renderer
+  const render = dagreD3.render();
+
+  let isClient = false;
+  isClient = true;
+
+  if (isClient) {
+    // Mark all nodes and their edges as active
+    cssRules = document.styleSheets[0].cssRules;
+    cssRules[3].style.opacity = 1;
+    cssRules[4].style.opacity = 1;
+
+    let graph;
+    graph = `digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class="", fontsize=12, label=utter_answer_ccc_what_is_forecast_based_financing_fra];
+2 [class="", fontsize=12, label=utter_answer_ccc_climate_crisis_vs_pandemic_fra];
+3 [class="", fontsize=12, label=utter_answer_ccc_effect_of_climate_crisis_on_food_water_security_fra];
+4 [class="", fontsize=12, label=utter_answer_ccc_effect_of_climate_crisis_on_livelihoods_fra];
+5 [class="", fontsize=12, label=utter_answer_ccc_does_climate_crisis_cost_lives_fra];
+6 [class="", fontsize=12, label=utter_answer_ccc_evidence_of_climate_crisis_fra];
+7 [class="", fontsize=12, label=utter_answer_ccc_does_weather_reflect_climate_crisis_fra];
+8 [class="", fontsize=12, label=utter_answer_ccc_does_climate_change_exist_alongside_coldwaves_fra];
+9 [class="", fontsize=12, label=utter_answer_ccc_is_climate_change_natural_fra];
+10 [class="", fontsize=12, label=utter_answer_ccc_problem_with_warm_weather_fra];
+11 [class="", fontsize=12, label=utter_reply_thanks_eng];
+12 [class="", fontsize=12, label=utter_answer_ccc_impact_of_Earth_warming_fra];
+13 [class="", fontsize=12, label=utter_answer_ccc_individual_choices_matter_fra];
+14 [class="", fontsize=12, label=utter_answer_ccc_plastic_bags_fra];
+15 [class="", fontsize=12, label=utter_answer_ccc_recycling_fra];
+16 [class="", fontsize=12, label=utter_answer_ccc_lifestyle_transportation_fra];
+17 [class="", fontsize=12, label=utter_answer_ccc_lifestyle_diet_fra];
+18 [class="", fontsize=12, label=utter_answer_ccc_lifestyle_local_diet_fra];
+19 [class="", fontsize=12, label=utter_answer_ccc_advocacy_intro_fra];
+20 [class="", fontsize=12, label=utter_answer_ccc_advocacy_toolkit_fra];
+21 [class="", fontsize=12, label=utter_answer_ccc_group_planting_trees_fra];
+22 [class="", fontsize=12, label=utter_reply_where_do_you_live_eng];
+23 [class="", fontsize=12, label=utter_answer_ccc_shared_gardens_fra];
+24 [class="", fontsize=12, label=utter_answer_ccc_games_fra];
+25 [class="", fontsize=12, label=utter_answer_ccc_prevention_plans_fra];
+26 [class="", fontsize=12, label=utter_answer_start_cc_education_fra];
+27 [class="", fontsize=12, label=utter_answer_what_is_cc_fra];
+28 [class="", fontsize=12, label=utter_reply_whats_your_name_eng];
+29 [class="", fontsize=12, label=utter_reply_to_request_for_french_eng];
+30 [class="", fontsize=12, label=utter_get_back_on_topic_eng];
+31 [class="", fontsize=12, label=utter_reply_to_wrong_answer_eng];
+32 [class="", fontsize=12, label=utter_anything_else_eng];
+33 [class="", fontsize=12, label=utter_set_expectations_eng];
+34 [class="", fontsize=12, label=utter_unknown_myths_eng];
+35 [class="", fontsize=12, label=utter_reply_about_privacy_eng];
+37 [class="", fontsize=12, label=utter_shopping_intro_eng];
+38 [class="", fontsize=12, label=utter_shopping_plastic_bags_eng];
+39 [class="", fontsize=12, label=utter_anything_else_eng];
+40 [class="", fontsize=12, label=utter_who_is_twb_eng];
+42 [class="", fontsize=12, label=utter_set_expectations_eng];
+43 [class="", fontsize=12, label=utter_get_informed_consent_eng];
+44 [class="", fontsize=12, label=form_recommend_cc_action_eng];
+45 [class="", fontsize=12, label=utter_diet_transition_question_eng];
+46 [class="", fontsize=12, label=utter_answer_ccc_lifestyle_local_diet_eng];
+47 [class="", fontsize=12, label=action_reset_full];
+50 [class="", fontsize=12, label=utter_set_expectations_fra];
+51 [class="", fontsize=12, label=utter_get_informed_consent_fra];
+52 [class="", fontsize=12, label=form_recommend_cc_action_fra];
+53 [class="", fontsize=12, label=utter_out_of_scope_fra];
+54 [class="", fontsize=12, label=utter_get_back_on_topic_fra];
+55 [class="", fontsize=12, label=utter_reply_thanks_fra];
+56 [class="", fontsize=12, label=utter_reply_where_do_you_live_fra];
+57 [class="", fontsize=12, label=utter_reply_whats_your_name_fra];
+58 [class="", fontsize=12, label=utter_reply_to_request_for_french_fra];
+60 [class="", fontsize=12, label=utter_reply_to_wrong_answer_fra];
+61 [class="", fontsize=12, label=utter_anything_else_fra];
+62 [class="", fontsize=12, label=utter_set_expectations_fra];
+63 [class="", fontsize=12, label=utter_unknown_myths_fra];
+64 [class="", fontsize=12, label=utter_reply_about_privacy_fra];
+72 [class="", fontsize=12, label=utter_anything_else_eng];
+73 [class="", fontsize=12, label=utter_goodbye_eng];
+74 [class="", fontsize=12, label=form_recommend_cc_action_fra];
+75 [class="", fontsize=12, label=utter_anything_else_fra];
+76 [class="", fontsize=12, label=utter_shopping_intro_fra];
+77 [class="", fontsize=12, label=utter_shopping_plastic_bags_fra];
+79 [class="", fontsize=12, label=utter_who_is_twb_fra];
+81 [class="", fontsize=12, label=utter_answer_ccc_too_late_eng];
+82 [class="", fontsize=12, label=utter_answer_ccc_what_is_greenhouse_effect_eng];
+83 [class="", fontsize=12, label=utter_answer_ccc_weather_vs_climate_eng];
+84 [class="", fontsize=12, label=utter_answer_ccc_what_can_ifrc_do_eng];
+85 [class="", fontsize=12, label=utter_answer_ccc_is_tree_planting_good_eng];
+86 [class="", fontsize=12, label=utter_answer_ccc_explain_ccc_negotiations_eng];
+87 [class="", fontsize=12, label=utter_answer_ccc_tracking_and_measurement_eng];
+95 [class="", fontsize=12, label=utter_answer_ccc_do_scientists_agree_eng];
+96 [class="", fontsize=12, label=utter_answer_ccc_what_is_carbon_footprint_eng];
+97 [class="", fontsize=12, label=utter_answer_ccc_greenest_countries_eng];
+98 [class="", fontsize=12, label=utter_answer_ccc_costs_of_doing_nothing_eng];
+99 [class="", fontsize=12, label=utter_answer_ccc_how_stop_cc_eng];
+100 [class="", fontsize=12, label=utter_answer_ccc_still_time_eng];
+101 [class="", fontsize=12, label=utter_answer_ccc_how_fast_heating_eng];
+102 [class="", fontsize=12, label=utter_answer_ccc_what_are_global_commitments_eng];
+103 [class="", fontsize=12, label=utter_answer_ccc_my_countries_co2_eng];
+104 [class="", fontsize=12, label=utter_answer_ccc_how_much_my_co2_eng];
+112 [class="", fontsize=12, label=utter_answer_ccc_affect_of_covid_eng];
+113 [class="", fontsize=12, label=utter_answer_ccc_how_can_we_promote_eng];
+114 [class="", fontsize=12, label=utter_answer_ccc_climate_crisis_impact_health_eng];
+115 [class="", fontsize=12, label=utter_answer_ccc_climate_crisis_impact_migration_eng];
+116 [class="", fontsize=12, label=utter_answer_ccc_what_is_forecast_based_financing_eng];
+117 [class="", fontsize=12, label=utter_answer_ccc_climate_crisis_vs_pandemic_eng];
+118 [class="", fontsize=12, label=utter_answer_ccc_effect_of_climate_crisis_on_food_water_security_eng];
+119 [class="", fontsize=12, label=utter_answer_ccc_effect_of_climate_crisis_on_livelihoods_eng];
+120 [class="", fontsize=12, label=utter_answer_ccc_does_climate_crisis_cost_lives_eng];
+121 [class="", fontsize=12, label=utter_answer_ccc_evidence_of_climate_crisis_eng];
+125 [class="", fontsize=12, label=utter_advocacy_transition_question_eng];
+126 [class="", fontsize=12, label=utter_answer_ccc_advocacy_toolkit_eng];
+130 [class="", fontsize=12, label=utter_answer_ccc_does_weather_reflect_climate_crisis_eng];
+131 [class="", fontsize=12, label=utter_answer_ccc_does_climate_change_exist_alongside_coldwaves_eng];
+132 [class="", fontsize=12, label=utter_answer_ccc_is_climate_change_natural_eng];
+133 [class="", fontsize=12, label=utter_answer_ccc_problem_with_warm_weather_eng];
+134 [class="", fontsize=12, label=utter_answer_ccc_impact_of_Earth_warming_eng];
+135 [class="", fontsize=12, label=utter_answer_ccc_individual_choices_matter_eng];
+136 [class="", fontsize=12, label=utter_answer_ccc_plastic_bags_eng];
+137 [class="", fontsize=12, label=utter_answer_ccc_recycling_eng];
+138 [class="", fontsize=12, label=utter_answer_ccc_lifestyle_transportation_eng];
+139 [class="", fontsize=12, label=utter_answer_ccc_lifestyle_diet_eng];
+146 [class="", fontsize=12, label=utter_answer_ccc_lifestyle_local_diet_eng];
+147 [class="", fontsize=12, label=utter_answer_ccc_advocacy_intro_eng];
+148 [class="", fontsize=12, label=utter_answer_ccc_advocacy_toolkit_eng];
+149 [class="", fontsize=12, label=utter_answer_ccc_group_planting_trees_eng];
+150 [class="", fontsize=12, label=utter_answer_ccc_shared_gardens_eng];
+151 [class="", fontsize=12, label=utter_answer_ccc_games_eng];
+152 [class="", fontsize=12, label=utter_answer_ccc_prevention_plans_eng];
+153 [class="", fontsize=12, label=utter_answer_start_cc_education_eng];
+154 [class="", fontsize=12, label=utter_answer_what_is_cc_eng];
+155 [class="", fontsize=12, label=utter_answer_ccc_too_late_fra];
+162 [class="", fontsize=12, label=utter_answer_ccc_what_is_greenhouse_effect_fra];
+163 [class="", fontsize=12, label=utter_answer_ccc_weather_vs_climate_fra];
+164 [class="", fontsize=12, label=utter_answer_ccc_what_can_ifrc_do_fra];
+165 [class="", fontsize=12, label=utter_answer_ccc_is_tree_planting_good_fra];
+166 [class="", fontsize=12, label=utter_answer_ccc_explain_ccc_negotiations_fra];
+167 [class="", fontsize=12, label=utter_answer_ccc_tracking_and_measurement_fra];
+168 [class="", fontsize=12, label=utter_answer_ccc_do_scientists_agree_fra];
+169 [class="", fontsize=12, label=utter_answer_ccc_what_is_carbon_footprint_fra];
+170 [class="", fontsize=12, label=utter_answer_ccc_greenest_countries_fra];
+171 [class="", fontsize=12, label=utter_answer_ccc_costs_of_doing_nothing_fra];
+172 [class="", fontsize=12, label=form_recommend_cc_action_eng];
+175 [class="", fontsize=12, label=utter_answer_ccc_how_stop_cc_fra];
+176 [class="", fontsize=12, label=utter_answer_ccc_still_time_fra];
+177 [class="", fontsize=12, label=utter_answer_ccc_how_fast_heating_fra];
+178 [class="", fontsize=12, label=utter_answer_ccc_what_are_global_commitments_fra];
+179 [class="", fontsize=12, label=utter_answer_ccc_my_countries_co2_fra];
+180 [class="", fontsize=12, label=utter_answer_ccc_how_much_my_co2_fra];
+181 [class="", fontsize=12, label=utter_answer_ccc_affect_of_covid_fra];
+182 [class="", fontsize=12, label=utter_answer_ccc_how_can_we_promote_fra];
+183 [class="", fontsize=12, label=utter_answer_ccc_climate_crisis_impact_health_fra];
+184 [class="", fontsize=12, label=utter_answer_ccc_climate_crisis_impact_migration_fra];
+185 [class="", fontsize=12, label=utter_out_of_scope_eng];
+187 [class=intent, fillcolor=lightblue, label="Comment les donateurs garantiront-ils que le financement est rapidement débloqué en cas de catastrophe?", shape=rect, style=filled];
+188 [class=intent, fillcolor=lightblue, label="Comment penser le changement climatique lors d'une pandémie?", shape=rect, style=filled];
+189 [class=intent, fillcolor=lightblue, label="Le changement climatique a-t-il un impact sur la sécurité alimentaire?", shape=rect, style=filled];
+190 [class=intent, fillcolor=lightblue, label="Les emplois ne vont pas devoir changer à cause de cette crise climatique?", shape=rect, style=filled];
+191 [class=intent, fillcolor=lightblue, label="Le changement climatique aura-t-il un impact sur nos vies?", shape=rect, style=filled];
+192 [class=intent, fillcolor=lightblue, label="Y a-t-il des preuves que la terre se réchauffe?", shape=rect, style=filled];
+193 [class=intent, fillcolor=lightblue, label="La météo ne semble pas refléter une crise climatique", shape=rect, style=filled];
+194 [class=intent, fillcolor=lightblue, label="Nous avons une vague de froid, êtes-vous sûr que les températures augmentent?", shape=rect, style=filled];
+195 [class=intent, fillcolor=lightblue, label="Le changement climatique n'est-il pas un processus naturel?", shape=rect, style=filled];
+196 [class=intent, fillcolor=lightblue, label="Quel est l'impact négatif du temps chaud?", shape=rect, style=filled];
+197 [class=intent, fillcolor=lightblue, label="Thank you", shape=rect, style=filled];
+198 [class=intent, fillcolor=lightblue, label="Quel est l'impact du réchauffement de la Terre?", shape=rect, style=filled];
+199 [class=intent, fillcolor=lightblue, label="Les actions d'une personne peuvent faire une différence?", shape=rect, style=filled];
+200 [class=intent, fillcolor=lightblue, label="/ccc_plastic_bags_fra", shape=rect, style=filled];
+201 [class=intent, fillcolor=lightblue, label="/ccc_recycling_fra", shape=rect, style=filled];
+202 [class=intent, fillcolor=lightblue, label="l'impact de nos voyages sur le réchauffement climatique", shape=rect, style=filled];
+203 [class=intent, fillcolor=lightblue, label="devrais-je devenir végétarien", shape=rect, style=filled];
+204 [class=intent, fillcolor=lightblue, label="/ccc_lifestyle_local_diet_fra", shape=rect, style=filled];
+205 [class=intent, fillcolor=lightblue, label="Dites-moi comment je peux plaider en faveur du changement climatique?", shape=rect, style=filled];
+206 [class=intent, fillcolor=lightblue, label="boîte à outils pour commencer le plaidoyer", shape=rect, style=filled];
+207 [class=intent, fillcolor=lightblue, label="/ccc_group_planting_trees_fra", shape=rect, style=filled];
+208 [class=intent, fillcolor=lightblue, label="Where are you now?", shape=rect, style=filled];
+209 [class=intent, fillcolor=lightblue, label="/ccc_shared_gardens_fra", shape=rect, style=filled];
+210 [class=intent, fillcolor=lightblue, label="jeux de sensibilisation au changement climatique", shape=rect, style=filled];
+211 [class=intent, fillcolor=lightblue, label="Je souhaite savoir ce qui peut être fait avec les plans de prévention", shape=rect, style=filled];
+212 [class=intent, fillcolor=lightblue, label="concepts clés concernant le réchauffement climatique", shape=rect, style=filled];
+213 [class=intent, fillcolor=lightblue, label="qu'est-ce que le changement climatique?", shape=rect, style=filled];
+214 [class=intent, fillcolor=lightblue, label="What's your name?", shape=rect, style=filled];
+215 [class=intent, fillcolor=lightblue, label=French, shape=rect, style=filled];
+216 [class=intent, fillcolor=lightblue, label="Wrong answer", shape=rect, style=filled];
+217 [class=intent, fillcolor=lightblue, label="/unknown_myths_eng", shape=rect, style=filled];
+218 [class=intent, fillcolor=lightblue, label="/ask_about_privacy_eng", shape=rect, style=filled];
+219 [class=intent, fillcolor=lightblue, label="/ccc_group_planting_trees_eng", shape=rect, style=filled];
+220 [class=intent, fillcolor=lightblue, label="/ccc_group_planting_trees_fra", shape=rect, style=filled];
+221 [class=intent, fillcolor=lightblue, label="ideas to quit bad shopping habits for the environment", shape=rect, style=filled];
+222 [class=intent, fillcolor=lightblue, label="who is providing this chatbot?", shape=rect, style=filled];
+223 [class=intent, fillcolor=lightblue, label=sup, shape=rect, style=filled];
+224 [class=intent, fillcolor=lightblue, label="Que fais-tu", shape=rect, style=filled];
+225 [class=intent, fillcolor=lightblue, label="Connaissez-vous la prochaine session de la conférence", shape=rect, style=filled];
+226 [class=intent, fillcolor=lightblue, label=Merci, shape=rect, style=filled];
+227 [class=intent, fillcolor=lightblue, label="Tu habites ou?", shape=rect, style=filled];
+228 [class=intent, fillcolor=lightblue, label="Comment vous appelez vous?", shape=rect, style=filled];
+229 [class=intent, fillcolor=lightblue, label="Quoi?", shape=rect, style=filled];
+230 [class=intent, fillcolor=lightblue, label="Cette réponse est fausse", shape=rect, style=filled];
+231 [class=intent, fillcolor=lightblue, label="/unknown_myths_fra", shape=rect, style=filled];
+232 [class=intent, fillcolor=lightblue, label="/ask_about_privacy_fra", shape=rect, style=filled];
+233 [class=intent, fillcolor=lightblue, label="Puis-je agir pour lutter contre le changement climatique?", shape=rect, style=filled];
+234 [class=intent, fillcolor=lightblue, label="épicerie et réchauffement climatique", shape=rect, style=filled];
+235 [class=intent, fillcolor=lightblue, label="qui fournit ce chatbot?", shape=rect, style=filled];
+236 [class=intent, fillcolor=lightblue, label="Do we still have time to fix climate change?", shape=rect, style=filled];
+237 [class=intent, fillcolor=lightblue, label="What is the greenhouse effect?", shape=rect, style=filled];
+238 [class=intent, fillcolor=lightblue, label="Why is weather different to climate?", shape=rect, style=filled];
+239 [class=intent, fillcolor=lightblue, label="Can the Red Cross do something against climate change?", shape=rect, style=filled];
+240 [class=intent, fillcolor=lightblue, label="Why does planting trees fight climate change?", shape=rect, style=filled];
+241 [class=intent, fillcolor=lightblue, label="Are there negotiations between countries for climate change?", shape=rect, style=filled];
+242 [class=intent, fillcolor=lightblue, label="Is there a way to track climate change?", shape=rect, style=filled];
+243 [class=intent, fillcolor=lightblue, label="What is the scientific opinion on climate change?", shape=rect, style=filled];
+244 [class=intent, fillcolor=lightblue, label="Does carbon footprint exist?", shape=rect, style=filled];
+245 [class=intent, fillcolor=lightblue, label="Whhich are the greenest countries?", shape=rect, style=filled];
+246 [class=intent, fillcolor=lightblue, label="Are there any consequences of global warming?", shape=rect, style=filled];
+247 [class=intent, fillcolor=lightblue, label="Is there anything we can do to stop global warming?", shape=rect, style=filled];
+248 [class=intent, fillcolor=lightblue, label="/ccc_still_time_eng", shape=rect, style=filled];
+249 [class=intent, fillcolor=lightblue, label="How rapidly is climate change happening?", shape=rect, style=filled];
+250 [class=intent, fillcolor=lightblue, label="international initiatives to stop climate change", shape=rect, style=filled];
+251 [class=intent, fillcolor=lightblue, label="How eco friendly is my country?", shape=rect, style=filled];
+252 [class=intent, fillcolor=lightblue, label="Does ... emit a lot of CO2?", shape=rect, style=filled];
+253 [class=intent, fillcolor=lightblue, label="Is corona affecting global warming?", shape=rect, style=filled];
+254 [class=intent, fillcolor=lightblue, label="Can my National Society promote the prevention of climate change?", shape=rect, style=filled];
+255 [class=intent, fillcolor=lightblue, label="are there health risks associated with global warming?", shape=rect, style=filled];
+256 [class=intent, fillcolor=lightblue, label="What's the impact of climate change on migration?", shape=rect, style=filled];
+257 [class=intent, fillcolor=lightblue, label="Are risk analysis used for funding for climate disasters preemptively?", shape=rect, style=filled];
+258 [class=intent, fillcolor=lightblue, label="How can we think about climate change during a pandemic?", shape=rect, style=filled];
+259 [class=intent, fillcolor=lightblue, label="Does climate change impact food security?", shape=rect, style=filled];
+260 [class=intent, fillcolor=lightblue, label="Jobs aren't going to have to change because of this climate crisis?", shape=rect, style=filled];
+261 [class=intent, fillcolor=lightblue, label="Will climate change impact our lives?", shape=rect, style=filled];
+262 [class=intent, fillcolor=lightblue, label="Is there evidence that the earth is warming?", shape=rect, style=filled];
+263 [class=intent, fillcolor=lightblue, label="Tell me how climate change is affecting my weather?", shape=rect, style=filled];
+264 [class=intent, fillcolor=lightblue, label="We have long winters, not sure if climate is changing?", shape=rect, style=filled];
+265 [class=intent, fillcolor=lightblue, label="Are you sure climate change is impacted by humans?", shape=rect, style=filled];
+266 [class=intent, fillcolor=lightblue, label="Does warm weather have a negative consequence?", shape=rect, style=filled];
+267 [class=intent, fillcolor=lightblue, label="Is the warming of the Earth bad?", shape=rect, style=filled];
+268 [class=intent, fillcolor=lightblue, label="Can I make some changes that limit climate change?", shape=rect, style=filled];
+269 [class=intent, fillcolor=lightblue, label="/ccc_plastic_bags_eng", shape=rect, style=filled];
+270 [class=intent, fillcolor=lightblue, label="/ccc_recycling_eng", shape=rect, style=filled];
+271 [class=intent, fillcolor=lightblue, label="the impact of our travel on global warming", shape=rect, style=filled];
+272 [class=intent, fillcolor=lightblue, label="should I become a vegetarian", shape=rect, style=filled];
+273 [class=intent, fillcolor=lightblue, label="/ccc_lifestyle_local_diet_eng", shape=rect, style=filled];
+274 [class=intent, fillcolor=lightblue, label="what about advocacy?", shape=rect, style=filled];
+275 [class=intent, fillcolor=lightblue, label="document to learn about advocacy", shape=rect, style=filled];
+276 [class=intent, fillcolor=lightblue, label="/ccc_group_planting_trees_eng", shape=rect, style=filled];
+277 [class=intent, fillcolor=lightblue, label="/ccc_shared_gardens_eng", shape=rect, style=filled];
+278 [class=intent, fillcolor=lightblue, label="What kind of games are there ?", shape=rect, style=filled];
+279 [class=intent, fillcolor=lightblue, label="suggestions for how to be prepared and for prevention", shape=rect, style=filled];
+280 [class=intent, fillcolor=lightblue, label="educational content", shape=rect, style=filled];
+281 [class=intent, fillcolor=lightblue, label="what is climate change?", shape=rect, style=filled];
+282 [class=intent, fillcolor=lightblue, label="Pouvons-nous encore empêcher le changement climatique?", shape=rect, style=filled];
+283 [class=intent, fillcolor=lightblue, label="Quel est l'effet de serre?", shape=rect, style=filled];
+284 [class=intent, fillcolor=lightblue, label="Y a-t-il une différence entre le temps et le climat?", shape=rect, style=filled];
+285 [class=intent, fillcolor=lightblue, label="La Croix-Rouge lutte-t-elle contre le changement climatique?", shape=rect, style=filled];
+286 [class=intent, fillcolor=lightblue, label="La plantation d'arbres empêche-t-elle le changement climatique?", shape=rect, style=filled];
+287 [class=intent, fillcolor=lightblue, label="Quelles sont les négociations mondiales sur le changement climatique?", shape=rect, style=filled];
+288 [class=intent, fillcolor=lightblue, label="Comment le changement climatique est-il suivi et mesuré?", shape=rect, style=filled];
+289 [class=intent, fillcolor=lightblue, label="Le changement climatique est-il réel?", shape=rect, style=filled];
+290 [class=intent, fillcolor=lightblue, label="Qu'est-ce qu'une empreinte carbone?", shape=rect, style=filled];
+291 [class=intent, fillcolor=lightblue, label="Quels pays sont les meilleurs pour lutter contre le changement climatique?", shape=rect, style=filled];
+292 [class=intent, fillcolor=lightblue, label="Y a-t-il des conséquences du réchauffement climatique?", shape=rect, style=filled];
+293 [class=intent, fillcolor=lightblue, label="What actions can I take?", shape=rect, style=filled];
+294 [class=intent, fillcolor=lightblue, label="Pouvons-nous faire quelque chose pour arrêter le réchauffement climatique?", shape=rect, style=filled];
+295 [class=intent, fillcolor=lightblue, label="/ccc_still_time_fra", shape=rect, style=filled];
+296 [class=intent, fillcolor=lightblue, label="À quelle vitesse le climat change-t-il?", shape=rect, style=filled];
+297 [class=intent, fillcolor=lightblue, label="quelles initiatives internationales les dirigeants ont-ils entrepris?", shape=rect, style=filled];
+298 [class=intent, fillcolor=lightblue, label="Quelle est la part de mon pays dans les émissions de gaz à effet de serre?", shape=rect, style=filled];
+299 [class=intent, fillcolor=lightblue, label="Est-ce que ... produit du CO2?", shape=rect, style=filled];
+300 [class=intent, fillcolor=lightblue, label="Le COVID-19 arrête-t-il la lutte contre le changement climatique?", shape=rect, style=filled];
+301 [class=intent, fillcolor=lightblue, label="Comment pouvons-nous promouvoir l'action contre le changement climatique dans notre Société nationale ou organisation?", shape=rect, style=filled];
+302 [class=intent, fillcolor=lightblue, label="risques sanitaires", shape=rect, style=filled];
+303 [class=intent, fillcolor=lightblue, label="Le changement climatique aggravera-t-il la migration?", shape=rect, style=filled];
+304 [class=intent, fillcolor=lightblue, label="Do you know who is responsible for the crisis?", shape=rect, style=filled];
+305 [class=intent, fillcolor=lightblue, label=correct, shape=rect, style=filled];
+306 [class=intent, fillcolor=lightblue, label="no way", shape=rect, style=filled];
+307 [class=intent, fillcolor=lightblue, label="I don't think so", shape=rect, style=filled];
+308 [class=intent, fillcolor=lightblue, label="Yes, it's the first time we have spoken", shape=rect, style=filled];
+0 -> 187  [class="", key=0];
+0 -> 188  [class="", key=0];
+0 -> 189  [class="", key=0];
+0 -> 190  [class="", key=0];
+0 -> 191  [class="", key=0];
+0 -> 192  [class="", key=0];
+0 -> 193  [class="", key=0];
+0 -> 194  [class="", key=0];
+0 -> 195  [class="", key=0];
+0 -> 196  [class="", key=0];
+0 -> 197  [class="", key=0];
+0 -> 198  [class="", key=0];
+0 -> 199  [class="", key=0];
+0 -> 200  [class="", key=0];
+0 -> 201  [class="", key=0];
+0 -> 202  [class="", key=0];
+0 -> 203  [class="", key=0];
+0 -> 204  [class="", key=0];
+0 -> 205  [class="", key=0];
+0 -> 206  [class="", key=0];
+0 -> 207  [class="", key=0];
+0 -> 208  [class="", key=0];
+0 -> 209  [class="", key=0];
+0 -> 210  [class="", key=0];
+0 -> 211  [class="", key=0];
+0 -> 212  [class="", key=0];
+0 -> 213  [class="", key=0];
+0 -> 214  [class="", key=0];
+0 -> 215  [class="", key=0];
+0 -> 216  [class="", key=0];
+0 -> 217  [class="", key=0];
+0 -> 218  [class="", key=0];
+0 -> 219  [class="", key=0];
+0 -> 220  [class="", key=0];
+0 -> 221  [class="", key=0];
+0 -> 222  [class="", key=0];
+0 -> 223  [class="", key=0];
+0 -> 224  [class="", key=0];
+0 -> 225  [class="", key=0];
+0 -> 226  [class="", key=0];
+0 -> 227  [class="", key=0];
+0 -> 228  [class="", key=0];
+0 -> 229  [class="", key=0];
+0 -> 230  [class="", key=0];
+0 -> 231  [class="", key=0];
+0 -> 232  [class="", key=0];
+0 -> 233  [class="", key=0];
+0 -> 234  [class="", key=0];
+0 -> 235  [class="", key=0];
+0 -> 236  [class="", key=0];
+0 -> 237  [class="", key=0];
+0 -> 238  [class="", key=0];
+0 -> 239  [class="", key=0];
+0 -> 240  [class="", key=0];
+0 -> 241  [class="", key=0];
+0 -> 242  [class="", key=0];
+0 -> 243  [class="", key=0];
+0 -> 244  [class="", key=0];
+0 -> 245  [class="", key=0];
+0 -> 246  [class="", key=0];
+0 -> 247  [class="", key=0];
+0 -> 248  [class="", key=0];
+0 -> 249  [class="", key=0];
+0 -> 250  [class="", key=0];
+0 -> 251  [class="", key=0];
+0 -> 252  [class="", key=0];
+0 -> 253  [class="", key=0];
+0 -> 254  [class="", key=0];
+0 -> 255  [class="", key=0];
+0 -> 256  [class="", key=0];
+0 -> 257  [class="", key=0];
+0 -> 258  [class="", key=0];
+0 -> 259  [class="", key=0];
+0 -> 260  [class="", key=0];
+0 -> 261  [class="", key=0];
+0 -> 262  [class="", key=0];
+0 -> 263  [class="", key=0];
+0 -> 264  [class="", key=0];
+0 -> 265  [class="", key=0];
+0 -> 266  [class="", key=0];
+0 -> 267  [class="", key=0];
+0 -> 268  [class="", key=0];
+0 -> 269  [class="", key=0];
+0 -> 270  [class="", key=0];
+0 -> 271  [class="", key=0];
+0 -> 272  [class="", key=0];
+0 -> 273  [class="", key=0];
+0 -> 274  [class="", key=0];
+0 -> 275  [class="", key=0];
+0 -> 276  [class="", key=0];
+0 -> 277  [class="", key=0];
+0 -> 278  [class="", key=0];
+0 -> 279  [class="", key=0];
+0 -> 280  [class="", key=0];
+0 -> 281  [class="", key=0];
+0 -> 282  [class="", key=0];
+0 -> 283  [class="", key=0];
+0 -> 284  [class="", key=0];
+0 -> 285  [class="", key=0];
+0 -> 286  [class="", key=0];
+0 -> 287  [class="", key=0];
+0 -> 288  [class="", key=0];
+0 -> 289  [class="", key=0];
+0 -> 290  [class="", key=0];
+0 -> 291  [class="", key=0];
+0 -> 292  [class="", key=0];
+0 -> 293  [class="", key=0];
+0 -> 294  [class="", key=0];
+0 -> 295  [class="", key=0];
+0 -> 296  [class="", key=0];
+0 -> 297  [class="", key=0];
+0 -> 298  [class="", key=0];
+0 -> 299  [class="", key=0];
+0 -> 300  [class="", key=0];
+0 -> 301  [class="", key=0];
+0 -> 302  [class="", key=0];
+0 -> 303  [class="", key=0];
+0 -> 304  [class="", key=0];
+1 -> "-1"  [class="", key=NONE, label=""];
+2 -> "-1"  [class="", key=NONE, label=""];
+3 -> "-1"  [class="", key=NONE, label=""];
+4 -> "-1"  [class="", key=NONE, label=""];
+5 -> "-1"  [class="", key=NONE, label=""];
+6 -> "-1"  [class="", key=NONE, label=""];
+7 -> "-1"  [class="", key=NONE, label=""];
+8 -> "-1"  [class="", key=NONE, label=""];
+9 -> "-1"  [class="", key=NONE, label=""];
+10 -> "-1"  [class="", key=NONE, label=""];
+11 -> "-1"  [class="", key=NONE, label=""];
+12 -> "-1"  [class="", key=NONE, label=""];
+13 -> "-1"  [class="", key=NONE, label=""];
+14 -> "-1"  [class="", key=NONE, label=""];
+15 -> "-1"  [class="", key=NONE, label=""];
+16 -> "-1"  [class="", key=NONE, label=""];
+17 -> "-1"  [class="", key=NONE, label=""];
+18 -> "-1"  [class="", key=NONE, label=""];
+19 -> "-1"  [class="", key=NONE, label=""];
+20 -> "-1"  [class="", key=NONE, label=""];
+21 -> "-1"  [class="", key=NONE, label=""];
+22 -> "-1"  [class="", key=NONE, label=""];
+23 -> "-1"  [class="", key=NONE, label=""];
+24 -> "-1"  [class="", key=NONE, label=""];
+25 -> "-1"  [class="", key=NONE, label=""];
+26 -> "-1"  [class="", key=NONE, label=""];
+27 -> "-1"  [class="", key=NONE, label=""];
+28 -> "-1"  [class="", key=NONE, label=""];
+29 -> 30  [class="", key=NONE, label=""];
+30 -> "-1"  [class="", key=NONE, label=""];
+31 -> 32  [class="", key=NONE, label=""];
+32 -> 33  [class="", key=NONE, label=""];
+33 -> "-1"  [class="", key=NONE, label=""];
+34 -> "-1"  [class="", key=NONE, label=""];
+35 -> 30  [class="", key=NONE, label=""];
+37 -> 38  [class="", key=NONE, label=""];
+38 -> 39  [class="", key=NONE, label=""];
+39 -> "-1"  [class="", key=NONE, label=""];
+40 -> 39  [class="", key=NONE, label=""];
+42 -> 43  [class="", key=NONE, label=""];
+43 -> 44  [class="", key=NONE, label=""];
+44 -> 45  [class="", key=NONE, label=""];
+44 -> 125  [class="", key=NONE, label=""];
+44 -> 47  [class="", key=NONE, label=""];
+45 -> 305  [class="", key=0];
+45 -> 306  [class="", key=0];
+46 -> 47  [class="", key=NONE, label=""];
+47 -> 32  [class="", key=NONE, label=""];
+47 -> 72  [class="", key=NONE, label=""];
+47 -> 39  [class="", key=NONE, label=""];
+50 -> 51  [class="", key=NONE, label=""];
+51 -> 52  [class="", key=NONE, label=""];
+52 -> "-1"  [class="", key=NONE, label=""];
+53 -> 54  [class="", key=NONE, label=""];
+54 -> "-1"  [class="", key=NONE, label=""];
+55 -> "-1"  [class="", key=NONE, label=""];
+56 -> "-1"  [class="", key=NONE, label=""];
+57 -> "-1"  [class="", key=NONE, label=""];
+58 -> 54  [class="", key=NONE, label=""];
+60 -> 61  [class="", key=NONE, label=""];
+61 -> 62  [class="", key=NONE, label=""];
+62 -> "-1"  [class="", key=NONE, label=""];
+63 -> "-1"  [class="", key=NONE, label=""];
+64 -> 54  [class="", key=NONE, label=""];
+72 -> 307  [class="", key=0];
+73 -> "-1"  [class="", key=NONE, label=""];
+74 -> 75  [class="", key=NONE, label=""];
+75 -> "-1"  [class="", key=NONE, label=""];
+76 -> 77  [class="", key=NONE, label=""];
+77 -> 75  [class="", key=NONE, label=""];
+79 -> 75  [class="", key=NONE, label=""];
+81 -> "-1"  [class="", key=NONE, label=""];
+82 -> "-1"  [class="", key=NONE, label=""];
+83 -> "-1"  [class="", key=NONE, label=""];
+84 -> "-1"  [class="", key=NONE, label=""];
+85 -> "-1"  [class="", key=NONE, label=""];
+86 -> "-1"  [class="", key=NONE, label=""];
+87 -> "-1"  [class="", key=NONE, label=""];
+95 -> "-1"  [class="", key=NONE, label=""];
+96 -> "-1"  [class="", key=NONE, label=""];
+97 -> "-1"  [class="", key=NONE, label=""];
+98 -> "-1"  [class="", key=NONE, label=""];
+99 -> "-1"  [class="", key=NONE, label=""];
+100 -> "-1"  [class="", key=NONE, label=""];
+101 -> "-1"  [class="", key=NONE, label=""];
+102 -> "-1"  [class="", key=NONE, label=""];
+103 -> "-1"  [class="", key=NONE, label=""];
+104 -> "-1"  [class="", key=NONE, label=""];
+112 -> "-1"  [class="", key=NONE, label=""];
+113 -> "-1"  [class="", key=NONE, label=""];
+114 -> "-1"  [class="", key=NONE, label=""];
+115 -> "-1"  [class="", key=NONE, label=""];
+116 -> "-1"  [class="", key=NONE, label=""];
+117 -> "-1"  [class="", key=NONE, label=""];
+118 -> "-1"  [class="", key=NONE, label=""];
+119 -> "-1"  [class="", key=NONE, label=""];
+120 -> "-1"  [class="", key=NONE, label=""];
+121 -> "-1"  [class="", key=NONE, label=""];
+125 -> 308  [class="", key=0];
+126 -> 47  [class="", key=NONE, label=""];
+130 -> "-1"  [class="", key=NONE, label=""];
+131 -> "-1"  [class="", key=NONE, label=""];
+132 -> "-1"  [class="", key=NONE, label=""];
+133 -> "-1"  [class="", key=NONE, label=""];
+134 -> "-1"  [class="", key=NONE, label=""];
+135 -> "-1"  [class="", key=NONE, label=""];
+136 -> "-1"  [class="", key=NONE, label=""];
+137 -> "-1"  [class="", key=NONE, label=""];
+138 -> "-1"  [class="", key=NONE, label=""];
+139 -> "-1"  [class="", key=NONE, label=""];
+146 -> "-1"  [class="", key=NONE, label=""];
+147 -> "-1"  [class="", key=NONE, label=""];
+148 -> "-1"  [class="", key=NONE, label=""];
+149 -> "-1"  [class="", key=NONE, label=""];
+150 -> "-1"  [class="", key=NONE, label=""];
+151 -> "-1"  [class="", key=NONE, label=""];
+152 -> "-1"  [class="", key=NONE, label=""];
+153 -> "-1"  [class="", key=NONE, label=""];
+154 -> "-1"  [class="", key=NONE, label=""];
+155 -> "-1"  [class="", key=NONE, label=""];
+162 -> "-1"  [class="", key=NONE, label=""];
+163 -> "-1"  [class="", key=NONE, label=""];
+164 -> "-1"  [class="", key=NONE, label=""];
+165 -> "-1"  [class="", key=NONE, label=""];
+166 -> "-1"  [class="", key=NONE, label=""];
+167 -> "-1"  [class="", key=NONE, label=""];
+168 -> "-1"  [class="", key=NONE, label=""];
+169 -> "-1"  [class="", key=NONE, label=""];
+170 -> "-1"  [class="", key=NONE, label=""];
+171 -> "-1"  [class="", key=NONE, label=""];
+172 -> 47  [class="", key=NONE, label=""];
+175 -> "-1"  [class="", key=NONE, label=""];
+176 -> "-1"  [class="", key=NONE, label=""];
+177 -> "-1"  [class="", key=NONE, label=""];
+178 -> "-1"  [class="", key=NONE, label=""];
+179 -> "-1"  [class="", key=NONE, label=""];
+180 -> "-1"  [class="", key=NONE, label=""];
+181 -> "-1"  [class="", key=NONE, label=""];
+182 -> "-1"  [class="", key=NONE, label=""];
+183 -> "-1"  [class="", key=NONE, label=""];
+184 -> "-1"  [class="", key=NONE, label=""];
+185 -> 30  [class="", key=NONE, label=""];
+187 -> 1  [class="", key=0];
+188 -> 2  [class="", key=0];
+189 -> 3  [class="", key=0];
+190 -> 4  [class="", key=0];
+191 -> 5  [class="", key=0];
+192 -> 6  [class="", key=0];
+193 -> 7  [class="", key=0];
+194 -> 8  [class="", key=0];
+195 -> 9  [class="", key=0];
+196 -> 10  [class="", key=0];
+197 -> 11  [class="", key=0];
+198 -> 12  [class="", key=0];
+199 -> 13  [class="", key=0];
+200 -> 14  [class="", key=0];
+201 -> 15  [class="", key=0];
+202 -> 16  [class="", key=0];
+203 -> 17  [class="", key=0];
+204 -> 18  [class="", key=0];
+205 -> 19  [class="", key=0];
+206 -> 20  [class="", key=0];
+207 -> 21  [class="", key=0];
+208 -> 22  [class="", key=0];
+209 -> 23  [class="", key=0];
+210 -> 24  [class="", key=0];
+211 -> 25  [class="", key=0];
+212 -> 26  [class="", key=0];
+213 -> 27  [class="", key=0];
+214 -> 28  [class="", key=0];
+215 -> 29  [class="", key=0];
+216 -> 31  [class="", key=0];
+217 -> 34  [class="", key=0];
+218 -> 35  [class="", key=0];
+219 -> "-1"  [class="", key=0];
+220 -> "-1"  [class="", key=0];
+221 -> 37  [class="", key=0];
+222 -> 40  [class="", key=0];
+223 -> 42  [class="", key=0];
+224 -> 50  [class="", key=0];
+225 -> 53  [class="", key=0];
+226 -> 55  [class="", key=0];
+227 -> 56  [class="", key=0];
+228 -> 57  [class="", key=0];
+229 -> 58  [class="", key=0];
+230 -> 60  [class="", key=0];
+231 -> 63  [class="", key=0];
+232 -> 64  [class="", key=0];
+233 -> 74  [class="", key=0];
+234 -> 76  [class="", key=0];
+235 -> 79  [class="", key=0];
+236 -> 81  [class="", key=0];
+237 -> 82  [class="", key=0];
+238 -> 83  [class="", key=0];
+239 -> 84  [class="", key=0];
+240 -> 85  [class="", key=0];
+241 -> 86  [class="", key=0];
+242 -> 87  [class="", key=0];
+243 -> 95  [class="", key=0];
+244 -> 96  [class="", key=0];
+245 -> 97  [class="", key=0];
+246 -> 98  [class="", key=0];
+247 -> 99  [class="", key=0];
+248 -> 100  [class="", key=0];
+249 -> 101  [class="", key=0];
+250 -> 102  [class="", key=0];
+251 -> 103  [class="", key=0];
+252 -> 104  [class="", key=0];
+253 -> 112  [class="", key=0];
+254 -> 113  [class="", key=0];
+255 -> 114  [class="", key=0];
+256 -> 115  [class="", key=0];
+257 -> 116  [class="", key=0];
+258 -> 117  [class="", key=0];
+259 -> 118  [class="", key=0];
+260 -> 119  [class="", key=0];
+261 -> 120  [class="", key=0];
+262 -> 121  [class="", key=0];
+263 -> 130  [class="", key=0];
+264 -> 131  [class="", key=0];
+265 -> 132  [class="", key=0];
+266 -> 133  [class="", key=0];
+267 -> 134  [class="", key=0];
+268 -> 135  [class="", key=0];
+269 -> 136  [class="", key=0];
+270 -> 137  [class="", key=0];
+271 -> 138  [class="", key=0];
+272 -> 139  [class="", key=0];
+273 -> 146  [class="", key=0];
+274 -> 147  [class="", key=0];
+275 -> 148  [class="", key=0];
+276 -> 149  [class="", key=0];
+277 -> 150  [class="", key=0];
+278 -> 151  [class="", key=0];
+279 -> 152  [class="", key=0];
+280 -> 153  [class="", key=0];
+281 -> 154  [class="", key=0];
+282 -> 155  [class="", key=0];
+283 -> 162  [class="", key=0];
+284 -> 163  [class="", key=0];
+285 -> 164  [class="", key=0];
+286 -> 165  [class="", key=0];
+287 -> 166  [class="", key=0];
+288 -> 167  [class="", key=0];
+289 -> 168  [class="", key=0];
+290 -> 169  [class="", key=0];
+291 -> 170  [class="", key=0];
+292 -> 171  [class="", key=0];
+293 -> 172  [class="", key=0];
+294 -> 175  [class="", key=0];
+295 -> 176  [class="", key=0];
+296 -> 177  [class="", key=0];
+297 -> 178  [class="", key=0];
+298 -> 179  [class="", key=0];
+299 -> 180  [class="", key=0];
+300 -> 181  [class="", key=0];
+301 -> 182  [class="", key=0];
+302 -> 183  [class="", key=0];
+303 -> 184  [class="", key=0];
+304 -> 185  [class="", key=0];
+305 -> 46  [class="", key=0];
+306 -> 47  [class="", key=0];
+307 -> 73  [class="", key=0];
+308 -> 126  [class="", key=0];
+}
+`;
+    drawGraph(graph);
+  } else {
+    serveGraph();
+  }
+
+
+</script>
+</body>
+</html>
